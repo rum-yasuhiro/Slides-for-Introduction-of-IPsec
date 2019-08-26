@@ -1,17 +1,21 @@
 # Slides-for-Introduction-of-IPsec
 This slides are used for Introduction of key ideas of IPsec in AQUA camp 2019ss.
 
-### IPsecとは？
-VPN
-暗号システムについて
-暗号化
-「完全性の保証」、「認証」
-共通鍵暗号、公開鍵暗号
+---
+
+## What is IPsec？
+
+- VPN
+- 暗号システムについて
+- 暗号化
+- 「完全性の保証」、「認証」
+- 共通鍵暗号、公開鍵暗号
 	
 +++
 
-### IPsecの技術
-トランスポートモード、トンネルモード
+## IPsecの技術
+
+### トランスポートモード、トンネルモード
 (OSI参照モデルについて...時間に余裕があれば)
 SA
 IKE
