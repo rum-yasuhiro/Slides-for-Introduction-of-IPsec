@@ -15,11 +15,17 @@ rum and cocori
 +++
 
 
-# What is VPN?
+# VPN
++++
+
+### VPN
+
 
 
 +++
 
+# Cryptosystem
++++
 
 ### Cryptosystem
 - Encryption
@@ -45,17 +51,17 @@ rum and cocori
 
 ### TECHNICAL TERMS
 
-IP(Internet Protocol)
+- IP(Internet Protocol)
 	
 	インターネット・プロトコル・スイートを使ったインターネットワークにおいてデータグラム（またはパケット）を中継するのに使われる主要な通信プロトコルのこと
 	IPは、最も基本的な通信単位であるパケットを相手に送信する役割を担う。
 	(https://ja.wikipedia.org/wiki/Internet_Protocol)
 		
-IP adress
+- IP adress
 
 	IPにおいてパケットを送受信する機器を判別するための番号のこと。(https://ja.wikipedia.org/wiki/IPアドレス)
 
-OSI参照モデル
+- OSI参照モデル
 
 	コンピュータの持つべき通信機能を階層構造に分割したモデルのこと。通信機能（通信プロトコル）を7つの階層に分けて定義している。(https://ja.wikipedia.org/wiki/OSI参照モデル)
 
