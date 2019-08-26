@@ -5,7 +5,7 @@ rum and cocori
 
 ---
 
-# What is IPsec？
+## What is IPsec？
 
 - VPN
 - Cryptosystem
@@ -70,9 +70,7 @@ OSI参照モデル
 
 ---
 
-# IPsec
-+++
-
+## Title
 
 ### トランスポートモード、トンネルモード
 (OSI参照モデルについて...時間に余裕があれば)
