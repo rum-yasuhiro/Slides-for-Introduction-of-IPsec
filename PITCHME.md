@@ -75,11 +75,10 @@ and whether you are communicating with the correct partner?
 
 +++
 
-### 共通鍵暗号、公開鍵暗号
+### Encryption
 <!--
 <メモ>
 -->
-**symmetric key encryption**
 
 ![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/z9ws4Rp8VZHoHpnhlh9I3QhAqiIdQZg6aSOlCCu1e5SAFa.width-800.png)
 
@@ -87,17 +86,10 @@ and whether you are communicating with the correct partner?
 
 +++
 
-### 共通鍵暗号、公開鍵暗号
+### Encryption
 <!--
 <メモ>
 -->
-**Public-key cryptography Usage**
-
-SSH
-TLS (HTTPS)
-Bitcoin
-PGP and GPG
-Authentication
 
 ![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/19DfiKodi3T25Xz7g9EDTyvF9di2SzvJo6JebRJaCN-1P_.width-808.png)
 
