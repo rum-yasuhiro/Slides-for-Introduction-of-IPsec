@@ -1,4 +1,4 @@
-# IPsec fot Beginners
+# IPsec for Beginners
 
 AQUA camp 2019ss.<br />
 rum and cocori
@@ -31,8 +31,9 @@ IPsecを説明する前に、暗号技術の基本とVPNについて確認する
 
 ---
 
-# Cryptosystem<br />(10min)
-<!-- 
+## Cryptosystem <br />(10min)
+<!--
+<メモ>
 -->
 
 +++
@@ -52,7 +53,8 @@ IPsecを説明する前に、暗号技術の基本とVPNについて確認する
 
 
 ### Encryption
-<!-- 
+<!--
+<メモ>
 -->
 
 暗号化とは？目的
@@ -61,32 +63,36 @@ IPsecを説明する前に、暗号技術の基本とVPNについて確認する
 +++
 
 ### 「完全性の保証」、「認証」
-<!-- 
+<!--
+<メモ>
 -->
 
 +++
 
 
 ### 共通鍵暗号、公開鍵暗号
-<!-- 
+<!--
+<メモ>
 -->
 
 ---
 
-# VPN(5min)
-<!-- 
+## VPN <br />(5min)
+<!--
+<メモ>
 -->
+
 +++
 
 
 ### VPN
-<!-- 
+<!--
+<メモ>
 -->
-
 
 ---
 
-### TECHNICAL TERMS
+### TECHNICAL TERM
 
 - [通信プロトコル](https://ja.wikipedia.org/wiki/通信プロトコル)
 
@@ -170,27 +176,34 @@ IPsecを説明する前に、暗号技術の基本とVPNについて確認する
 
 ---
 
-# What is IPsec？(Again)<br />(15min)
+## What is IPsec？(Again) <br />(15min)
+<!--
+<メモ>
+-->
 
 +++
 
 
-## Title
+### IPsec
+<!--
+<メモ>
+-->
 
-+++
-
-### トランスポートモード、トンネルモード
-(OSI参照モデルについて...時間に余裕があれば)
-- (SA)
+- トランスポートモード、トンネルモード
+- (OSI参照モデルについて...時間に余裕があれば)
+- SA
 - IKE
 - ESPとAH
 - 認証データ(「完全性の保証」、「認証」)MAC
 - Hash function, HMAC
 - Digital signature
++++
+
+### 
 
 ---
 
-## What is IPsec？(まとめ)
+### What is IPsec？(Conclusion)
 
 - アプリケーションに関係なく、全ての通信を自動的に暗号化するためのIP Security Protocol |
 
@@ -200,5 +213,12 @@ IPsecを説明する前に、暗号技術の基本とVPNについて確認する
 
 
 ### Reference 
-IT管理者のためのIPSec講座
-IPsecとは？
+
+- [IPsecをはじめから](https://www.infraexpert.com/study/study10.html)
+	- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
+	- [VPN - VPNの基礎知識](https://www.infraexpert.com/study/ipsec2.html)
+	- [VPN - 暗号システムの概要](https://www.infraexpert.com/study/ipsec3.html)
+	- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
+
+- [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
+
