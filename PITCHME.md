@@ -31,26 +31,37 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 ![bg 100%](https://i1.wp.com/www.mobileworldlive.com/wp-content/uploads/2016/02/shutterstock_103378880.jpg?w=500&ssl=1)
 ## Cryptosystem <br />(10min)
 <!--
-<メモ>
+ここで、暗号システムには「暗号化」、「完全性の保証」、「認証」が必要であることとその理由を先に説明。
+このあとで、それぞれの目的と手法について少し詳しく説明する。
+さらにここで、AliceとBobの図を描いて説明
 -->
 
 +++
 
 ### Cryptosystem
-<!--
-ここで、暗号システムには「暗号化」、「完全性の保証」、「認証」が必要であることとその理由を先に説明。
-このあとで、それぞれの目的と手法について少し詳しく説明する。
--->
 
+<!--
+In this procedure, there are three key question.
+The first question is ...
+1. How to share the key?
+And, second question is ...
+2. How to encript and decript message?
+And third one is ...
+3. How to Check whether the message has been altered along the way
+and whether you are communicating with the correct partner?
+-->
 - Key Exchange |
+
 - Encryption |
-	- symmetric key encryption, Public-key cryptography
+	- symmetric key encryption, <br />Public-key cryptography
+
 - 「完全性の保証」、「認証」|
-	- HMAC、Digital signature
+	- HMAC, Digital signature
 
 +++
 
 ### Key Exchange
+
 
 +++
 
@@ -76,7 +87,22 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 <!--
 <メモ>
 -->
+**symmetric key encryption**
 
+![](https://docs.oracle.com/cd/E19424-01/820-4811/images/scrypt.gif)
+
+[Key Encryption (Sun Directory Server Enterprise Edition 7.0 Reference) ](https://docs.oracle.com/cd/E19424-01/820-4811/6ng8i26bn/index.html)
+---
+
+### 共通鍵暗号、公開鍵暗号
+<!--
+<メモ>
+-->
+**Public-key cryptography**
+
+![](https://docs.oracle.com/cd/E19424-01/820-4811/images/pcrypt.gif)
+
+[Key Encryption (Sun Directory Server Enterprise Edition 7.0 Reference) ](https://docs.oracle.com/cd/E19424-01/820-4811/6ng8i26bn/index.html)
 ---
 
 ## VPN <br />(5min)
@@ -224,7 +250,6 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 - VPN構築の際に利用されるもの |
 
 ---
-
 
 ### Reference 
 
