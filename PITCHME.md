@@ -84,7 +84,8 @@ and whether you are communicating with the correct partner?
 
 ![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/z9ws4Rp8VZHoHpnhlh9I3QhAqiIdQZg6aSOlCCu1e5SAFa.width-800.png)
 
-→ The requirement is sharing secret key <br />**in some way in advance** |
+The requirement is sharing secret key |
+**in some way in advance** |
 
 https://www.twilio.com/blog/what-is-public-key-cryptography
 
