@@ -53,9 +53,11 @@ and whether you are communicating with the correct partner?
 - Key Exchange |
 
 - Encryption |
+	
 	- symmetric key encryption, <br />Public-key cryptography
 
 - 「完全性の保証」、「認証」|
+	
 	- HMAC, Digital signature
 
 +++
