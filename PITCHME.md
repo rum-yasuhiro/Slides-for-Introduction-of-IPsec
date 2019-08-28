@@ -40,7 +40,7 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 このあとで、それぞれの目的と手法について少し詳しく説明する。
 さらにここで、AliceとBobの図を描いて説明
 -->
-![bg 100%](https://i1.wp.com/www.mobileworldlive.com/wp-content/uploads/2016/02/shutterstock_103378880.jpg?w=500&ssl=1)
+![bg 200%](https://i1.wp.com/www.mobileworldlive.com/wp-content/uploads/2016/02/shutterstock_103378880.jpg?w=500&ssl=1)
 
 +++
 
