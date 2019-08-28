@@ -40,7 +40,7 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 このあとで、それぞれの目的と手法について少し詳しく説明する。
 さらにここで、AliceとBobの図を描いて説明
 -->
-![bg 200%](https://i1.wp.com/www.mobileworldlive.com/wp-content/uploads/2016/02/shutterstock_103378880.jpg?w=500&ssl=1)
+![bg](https://i1.wp.com/www.mobileworldlive.com/wp-content/uploads/2016/02/shutterstock_103378880.jpg?w=500&ssl=1)
 
 +++
 
@@ -84,9 +84,9 @@ and whether you are communicating with the correct partner?
 
 ![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/z9ws4Rp8VZHoHpnhlh9I3QhAqiIdQZg6aSOlCCu1e5SAFa.width-800.png)
 
-→ The requirement is sharing secret key **in some way in advance**
+→ The requirement is sharing secret key <br />**in some way in advance** |
 
-[What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
+https://www.twilio.com/blog/what-is-public-key-cryptography
 
 +++
 
@@ -97,7 +97,7 @@ and whether you are communicating with the correct partner?
 
 ![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/19DfiKodi3T25Xz7g9EDTyvF9di2SzvJo6JebRJaCN-1P_.width-808.png)
 
-[What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
+https://www.twilio.com/blog/what-is-public-key-cryptography
 
 +++
 
