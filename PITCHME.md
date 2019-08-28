@@ -101,29 +101,27 @@ and whether you are communicating with the correct partner?
 
 +++
 
-### Key Exchange
-<!-- ここでは数学的な説明までは踏み込まないことを説明 -->
+## Public-key cryptography
 
-Diffie-Hellman key exchange
+**Usage**
+- SSH
+- TLS (HTTPS)
+- Bitcoin
+- PGP and GPG
+- Authentication
 
-<!-- 素数の使い回しなどによって解読可能性が上がるなどの問題有り -->
+[What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
 
 +++
 
-### 共通鍵暗号、公開鍵暗号
-<!--
-<メモ>
--->
-**Public-key cryptography**
+### Key Exchange
+<!-- ここでは数学的な説明までは踏み込まないことを説明 -->
 
-SSH
-TLS (HTTPS)
-Bitcoin
-PGP and GPG
-Authentication
+**Diffie-Hellman key exchange**
 
 
-[What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
+
+<!-- 素数の使い回しなどによって解読可能性が上がるなどの問題有り -->
 
 +++
 
