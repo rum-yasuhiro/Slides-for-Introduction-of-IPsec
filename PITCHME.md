@@ -28,8 +28,8 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 ---
 
-## Cryptosystem <br />(10min)
 ![bg](https://i1.wp.com/www.mobileworldlive.com/wp-content/uploads/2016/02/shutterstock_103378880.jpg?w=500&ssl=1)
+## Cryptosystem <br />(10min)
 <!--
 <メモ>
 -->
