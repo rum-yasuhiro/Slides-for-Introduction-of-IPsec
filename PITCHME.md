@@ -64,7 +64,7 @@ and whether you are communicating with the correct partner?
 
 - Encryption |
 
-- 「完全性の保証」、「認証」|
+- Anthentication, data integrity |
 
 +++
 
@@ -75,9 +75,15 @@ and whether you are communicating with the correct partner?
 理由は、鍵の管理方法のが
 -->
 	
-- Symmetric-key cryptography
+- Symmetric-key cryptography |
 
-- Public-key cryptography
+- Public-key cryptography |
+
+- [Enigma](https://en.wikipedia.org/wiki/Enigma_machine) |
+
+- [One-time pad](https://en.wikipedia.org/wiki/One-time_pad) |
+
+...
 
 +++
 
@@ -93,6 +99,20 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 +++
 
+### Key Exchange
+<!-- ここでは数学的な説明までは踏み込まないことを説明 -->
+
+- [**Diffie-Hellman key exchange**](https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange)
+
+[](http://blog.trendmicro.com/trendlabs-security-intelligence/files/2015/09/anglerek_dh_01.jpg)
+https://blog.trendmicro.com/trendlabs-security-intelligence/how-exploit-kit-operators-are-misusing-diffie-hellman-key-exchange/
+
+<!-- 素数の使い回しなどによって解読可能性が上がるなどの問題有り -->
+
+- [**QKD**](https://en.wikipedia.org/wiki/Quantum_key_distribution)
+
++++
+
 ### Encryption
 <!-- <メモ> -->
 
@@ -102,32 +122,8 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 +++
 
-## Public-key cryptography
 
-**Usage**
-- SSH
-- TLS (HTTPS)
-- Bitcoin
-- PGP and GPG
-- Authentication
-
-[What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
-
-+++
-
-### Key Exchange
-<!-- ここでは数学的な説明までは踏み込まないことを説明 -->
-
-**Diffie-Hellman key exchange**
-
-
-
-<!-- 素数の使い回しなどによって解読可能性が上がるなどの問題有り -->
-
-+++
-
-
-### 「Data integrity」、「認証」
+### Anthentication, Data integrity
 	
 - 認証データ, MAC
 - Hash function, HMAC
@@ -169,6 +165,8 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 - [ディフィー・ヘルマン鍵共有](https://ja.wikipedia.org/wiki/ディフィー・ヘルマン鍵共有)
 
 	事前の秘密の共有無しに、盗聴の可能性のある通信路を使って、暗号鍵の共有を可能にする暗号プロトコル
+	
+- [QKD (Quantum Key Distribution)]()
 
 ---
 
@@ -231,6 +229,14 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 	- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
 
 - [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
+
++++
+
+### Refrence So Far
+
+- [情報セキュリティ Capn Network]()
+	- [鍵配送問題 Capn Network](http://capm-network.com/?tag=%E9%8D%B5%E9%85%8D%E9%80%81%E5%95%8F%E9%A1%8C)
+	- [暗号通信 Capm Network](http://capm-network.com/?tag=%E6%9A%97%E5%8F%B7%E9%80%9A%E4%BF%A1)
 
 - [What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
 
