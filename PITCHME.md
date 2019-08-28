@@ -1,33 +1,37 @@
-# Introduction of IPsec
+# IPsec fot Beginners
 
 AQUA camp 2019ss.<br />
 rum and cocori
 
 ---
 
-# What is IPsec？
+# What is IPsec？<br />(30min)
+
 <!--
-インターネットは、その特性上、途中でデータを盗み読むことも可能であり、こうした個人情報をそのままインターネット上で転送するのは、非常に危険な行為だといえる
-こうした情報はSSL（Secure Socket Layer）という方式によって暗号化してから送信することが多い。
+インターネットは、その特性上、途中でデータを盗み読むことも可能
+だから、個人情報をそのままインターネット上で転送するのは、非常に危険な行為だといえる
+なので、こうした情報はSSL（Secure Socket Layer）という方式によって暗号化してから送信することが多い。
 しかし、これらはWebブラウザや電子メール・クライアントといった、特定のアプリケーションでのみ暗号化を行うものであり、汎用性がない。
 そこで、アプリケーションに関係なく、すべての通信を自動的に暗号化してしまおうと考えられたのが、今回解説するIPSecである。
 IPSecでは、暗号化をIP（Internet Protocol）プロトコルのレベルで行い、ホストごとにセキュリティを確保することを目的としている。
 IP層レベルで自動的に暗号化された通信を行うので、上位のアプリケーションでは暗号化のことを特別に意識する必要はない。
 -->
+
 +++
-### What is IPsec？
+### What is IPse？(1)<br />(15min)
+
 <!-- 
+IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。
 -->
 
 - Encrypted communication
-	- Encryption
-	- 「完全性の保証」、「認証」
-	- 共通鍵暗号、公開鍵暗号
+		- Encryption
+		- 「完全性の保証」、「認証」
 - VPN
 
 ---
 
-# Cryptosystem
+# Cryptosystem<br />(10min)
 <!-- 
 -->
 
@@ -37,8 +41,8 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 <!-- 
 ここで、暗号システムには「暗号化」、「完全性の保証」、「認証」が必要であることとその理由を先に説明。
 このあとで、それぞれの目的と手法について少し詳しく説明する。
-
 -->
+
 - Encryption |
 	- 共通鍵暗号、公開鍵暗号
 - 「完全性の保証」、「認証」|
@@ -69,7 +73,7 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 ---
 
-# VPN
+# VPN(5min)
 <!-- 
 -->
 +++
@@ -88,21 +92,25 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 	[ネットワーク](https://ja.wikipedia.org/wiki/コンピュータネットワーク)上での通信に関する規約を定めたもの。
 	
-- [IP(Internet Protocol)](https://ja.wikipedia.org/wiki/Internet_Protocol)
+- [IP (Internet Protocol)](https://ja.wikipedia.org/wiki/Internet_Protocol)
 
 	最も基本的な通信単位であるパケットを相手に送信するための通信プロトコル
 
 - [IP adress](https://ja.wikipedia.org/wiki/IPアドレス)
 
-	IPにおいてパケットを送受信する機器を判別するための番号のこと。
+	IPにおいてパケットを送受信する機器を判別するための番号のこと
 
 +++
 
 ### TECHNICAL TERMS
 
+- [IP層]()
+
+
+
 - [OSI参照モデル](https://ja.wikipedia.org/wiki/OSI参照モデル)
 
-	コンピュータの持つべき通信機能を階層構造に分割したモデルのこと。
+	コンピュータの持つべき通信機能を階層構造に分割したモデルのこと
 
 +++
 
@@ -110,11 +118,29 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 - [VPN](https://ja.wikipedia.org/wiki/Virtual_Private_Network)
 
-	[インターネット](https://ja.wikipedia.org/wiki/インターネット)に跨って、[プライベートネットワーク](https://ja.wikipedia.org/wiki/プライベートネットワーク)を拡張する技術、およびそのネットワークのこと。
+	[インターネット](https://ja.wikipedia.org/wiki/インターネット)に跨って、[プライベートネットワーク](https://ja.wikipedia.org/wiki/プライベートネットワーク)を拡張する技術、およびそのネットワークのこと
+
 
 +++
 
 ### TECHNICAL TERMS
+
+- [HTTPS](https://ja.wikipedia.org/wiki/HTTPS)
+
+	HTTPS自体はプロトコルではなく、SSL/TLSプロトコルによって提供されるセキュアな接続の上でHTTP通信を行うことをHTTPSと呼ぶ
+	
+- [SSL/TLS](https://ja.wikipedia.org/wiki/Transport_Layer_Security)
+
+	インターネットなどのコンピュータネットワークにおいてセキュリティを要求される通信を行うためのプロトコル
+
++++
+
+### TECHNICAL TERMS
+
+- [改竄（かいざん）](https://ja.wikipedia.org/wiki/改竄)
+
+	文書、記録等の全部又は一部が、本来なされるべきでない時期に、本来なされるべきでない形式や内容などに変更されること、すること<br />
+	悪意の有無は問わない
 
 - [デジタル署名](https://ja.wikipedia.org/wiki/デジタル署名)
 
@@ -130,7 +156,7 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 	定義
 
-+++
+---
 
 ### Refrence So Far
 
@@ -142,18 +168,11 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 - [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
 
-
 ---
 
-## What is IPsec？(まとめ)
+# What is IPsec？(Again)<br />(15min)
 
-- アプリケーションに関係なく、全ての通信を自動的に暗号化するためのIP Security Protocol |
-
-- 主にVPN構築の際に利用されるもの |
-
----
-
-
++++
 
 
 ## Title
@@ -168,6 +187,14 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 - 認証データ(「完全性の保証」、「認証」)MAC
 - Hash function, HMAC
 - Digital signature
+
+---
+
+## What is IPsec？(まとめ)
+
+- アプリケーションに関係なく、全ての通信を自動的に暗号化するためのIP Security Protocol |
+
+- VPN構築の際に利用されるもの |
 
 ---
 
