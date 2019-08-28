@@ -27,10 +27,14 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 ### What is IPsec？(1)<br />(15min)
 <!-- IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。-->
 
-- Encrypted communication
-	- Encryption
-	- 「完全性の保証」、「認証」
-- VPN
+- Encrypted communication |
+- VPN |
+
+
++++
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/1024px-Caesar_cipher_left_shift_of_3.svg.png)
+https://en.wikipedia.org/wiki/Cryptography
 
 ---
 
@@ -78,23 +82,19 @@ and whether you are communicating with the correct partner?
 +++
 
 ### Encryption
-<!--
-<メモ>
--->
+<!-- <メモ> -->
 
 ![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/z9ws4Rp8VZHoHpnhlh9I3QhAqiIdQZg6aSOlCCu1e5SAFa.width-800.png)
 
-The requirement is sharing secret key |
-**in some way in advance** |
+The requirement is sharing secret key <br />
+**in some way in advance**
 
 https://www.twilio.com/blog/what-is-public-key-cryptography
 
 +++
 
 ### Encryption
-<!--
-<メモ>
--->
+<!-- <メモ> -->
 
 ![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/19DfiKodi3T25Xz7g9EDTyvF9di2SzvJo6JebRJaCN-1P_.width-808.png)
 
@@ -127,7 +127,7 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 +++
 
 
-### 「完全性の保証」、「認証」
+### 「Data integrity」、「認証」
 	
 - 認証データ, MAC
 - Hash function, HMAC
@@ -141,7 +141,6 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 +++
 
-
 ### VPN
 <!--
 <メモ>
@@ -150,6 +149,10 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 ---
 
 ### TECHNICAL TERMS
+
+- [情報セキュリティ](https://ja.wikipedia.org/wiki/情報セキュリティ)
+
+	情報の機密性、完全性、可用性を維持すること(情報のCIA)
 
 - [HTTPS](https://ja.wikipedia.org/wiki/HTTPS)
 
@@ -169,19 +172,17 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 ---
 
-
 ### TECHNICAL TERMS
 
 - [共通鍵暗号](https://ja.wikipedia.org/wiki/共通鍵暗号)
 
-	暗号化と復号に同一の（共通の）鍵を用いる暗号方式
+	暗号化と復号に同一の(共通の)鍵を用いる暗号方式
 
 - [公開鍵暗号](https://ja.wikipedia.org/wiki/公開鍵暗号)
 
-	暗号化と復号に別個の鍵（手順）を用い、暗号化の鍵を公開できるようにした暗号方式
+	暗号化と復号に別個の鍵(手順)を用い、暗号化の鍵を公開できるようにした暗号方式
 
 +++
-
 
 ### TECHNICAL TERMS
 
@@ -189,6 +190,14 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 	文書、記録等の全部又は一部が、本来なされるべきでない時期に、本来なされるべきでない形式や内容などに変更されること、すること<br />
 	悪意の有無は問わない
+
+- [データの完全性](https://ja.wikipedia.org/wiki/データ完全性#情報セキュリティ)
+
+	データの妥当性
+
++++
+
+### TECHNICAL TERMS
 
 - [デジタル署名](https://ja.wikipedia.org/wiki/デジタル署名)
 
@@ -202,7 +211,6 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 - [VPN](https://ja.wikipedia.org/wiki/Virtual_Private_Network)
 
 	[インターネット](https://ja.wikipedia.org/wiki/インターネット)に跨って、[プライベートネットワーク](https://ja.wikipedia.org/wiki/プライベートネットワーク)を拡張する技術、およびそのネットワークのこと
-
 
 +++
 
