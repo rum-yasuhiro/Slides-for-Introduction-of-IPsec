@@ -22,13 +22,14 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 <!-- IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。-->
 
 - Encrypted communication
-		- Encryption
-		- 「完全性の保証」、「認証」
+	- Encryption
+	- 「完全性の保証」、「認証」
 - VPN
 
 ---
 
 ## Cryptosystem <br />(10min)
+![bg](https://images.app.goo.gl/FvijMzkn4SJ4L2fk8 '暗号背景画像')
 <!--
 <メモ>
 -->
@@ -41,17 +42,21 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 このあとで、それぞれの目的と手法について少し詳しく説明する。
 -->
 
+- Key Exchange |
 - Encryption |
-	- 共通鍵暗号、公開鍵暗号
+	- symmetric key encryption, Public-key cryptography
 - 「完全性の保証」、「認証」|
 	- HMAC、Digital signature
 
 +++
 
+### Key Exchange
+
++++
 
 ### Encryption
 <!--
-<メモ>
+
 -->
 
 暗号化とは？目的
@@ -140,6 +145,18 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 ### TECHNICAL TERMS
 
+- [共通鍵暗号](https://ja.wikipedia.org/wiki/共通鍵暗号)
+
+	暗号化と復号に同一の（共通の）鍵を用いる暗号方式
+
+- [公開鍵暗号](https://ja.wikipedia.org/wiki/公開鍵暗号)
+
+	暗号化と復号に別個の鍵（手順）を用い、暗号化の鍵を公開できるようにした暗号方式
+
++++
+
+### TECHNICAL TERMS
+
 - [改竄（かいざん）](https://ja.wikipedia.org/wiki/改竄)
 
 	文書、記録等の全部又は一部が、本来なされるべきでない時期に、本来なされるべきでない形式や内容などに変更されること、すること<br />
@@ -148,7 +165,7 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 - [デジタル署名](https://ja.wikipedia.org/wiki/デジタル署名)
 
 	書面上の手書き署名のセキュリティ特性を模倣するために用いられる公開鍵暗号技術の一種
-	- [電子署名](https://ja.wikipedia.org/wiki/電子署名)
+	- [電子署名](https://ja.wikipedia.org/wiki/電子署名)とは異なる
 
 
 +++
@@ -157,23 +174,23 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 - [用語](url)
 
-	定義
+	説明
 
 ---
 
 ### Refrence So Far
 
 - [IPsecをはじめから](https://www.infraexpert.com/study/study10.html)
-		- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
-		- [VPN - VPNの基礎知識](https://www.infraexpert.com/study/ipsec2.html)
-		- [VPN - 暗号システムの概要](https://www.infraexpert.com/study/ipsec3.html)
-		- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
+	- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
+	- [VPN - VPNの基礎知識](https://www.infraexpert.com/study/ipsec2.html)
+	- [VPN - 暗号システムの概要](https://www.infraexpert.com/study/ipsec3.html)
+	- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
 
 - [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
 
 ---
 
-## What is IPsec？(Again) <br />(15min)
+## What is IPsec？(Again)
 <!--
 <メモ>
 -->
@@ -181,7 +198,7 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 +++
 
 
-### IPsec
+### IPsec　<br />(15min)
 <!--
 <メモ>
 -->
@@ -212,10 +229,10 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 ### Reference 
 
 - [IPsecをはじめから](https://www.infraexpert.com/study/study10.html)
-		- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
-		- [VPN - VPNの基礎知識](https://www.infraexpert.com/study/ipsec2.html)
-		- [VPN - 暗号システムの概要](https://www.infraexpert.com/study/ipsec3.html)
-		- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
+	- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
+	- [VPN - VPNの基礎知識](https://www.infraexpert.com/study/ipsec2.html)
+	- [VPN - 暗号システムの概要](https://www.infraexpert.com/study/ipsec3.html)
+	- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
 
 - [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
 
