@@ -19,10 +19,7 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 +++
 ### What is IPse？(1)<br />(15min)
-
-<!-- 
-IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。
--->
+<!-- IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。-->
 
 - Encrypted communication
 		- Encryption
@@ -39,7 +36,7 @@ IPsecを説明する前に、暗号技術の基本とVPNについて確認する
 +++
 
 ### Cryptosystem
-<!-- 
+<!--
 ここで、暗号システムには「暗号化」、「完全性の保証」、「認証」が必要であることとその理由を先に説明。
 このあとで、それぞれの目的と手法について少し詳しく説明する。
 -->
@@ -96,7 +93,7 @@ IPsecを説明する前に、暗号技術の基本とVPNについて確認する
 
 - [通信プロトコル](https://ja.wikipedia.org/wiki/通信プロトコル)
 
-	[ネットワーク](https://ja.wikipedia.org/wiki/コンピュータネットワーク)上での通信に関する規約を定めたもの。
+	[ネットワーク](https://ja.wikipedia.org/wiki/コンピュータネットワーク)上での通信に関する規約を定めたもの
 	
 - [IP (Internet Protocol)](https://ja.wikipedia.org/wiki/Internet_Protocol)
 
@@ -167,10 +164,10 @@ IPsecを説明する前に、暗号技術の基本とVPNについて確認する
 ### Refrence So Far
 
 - [IPsecをはじめから](https://www.infraexpert.com/study/study10.html)
-	- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
-	- [VPN - VPNの基礎知識](https://www.infraexpert.com/study/ipsec2.html)
-	- [VPN - 暗号システムの概要](https://www.infraexpert.com/study/ipsec3.html)
-	- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
+		- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
+		- [VPN - VPNの基礎知識](https://www.infraexpert.com/study/ipsec2.html)
+		- [VPN - 暗号システムの概要](https://www.infraexpert.com/study/ipsec3.html)
+		- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
 
 - [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
 
@@ -215,10 +212,10 @@ IPsecを説明する前に、暗号技術の基本とVPNについて確認する
 ### Reference 
 
 - [IPsecをはじめから](https://www.infraexpert.com/study/study10.html)
-	- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
-	- [VPN - VPNの基礎知識](https://www.infraexpert.com/study/ipsec2.html)
-	- [VPN - 暗号システムの概要](https://www.infraexpert.com/study/ipsec3.html)
-	- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
+		- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
+		- [VPN - VPNの基礎知識](https://www.infraexpert.com/study/ipsec2.html)
+		- [VPN - 暗号システムの概要](https://www.infraexpert.com/study/ipsec3.html)
+		- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
 
 - [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
 
