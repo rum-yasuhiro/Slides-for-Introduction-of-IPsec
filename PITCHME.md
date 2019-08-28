@@ -92,7 +92,8 @@ and whether you are communicating with the correct partner?
 ![](https://docs.oracle.com/cd/E19424-01/820-4811/images/scrypt.gif)
 
 [Key Encryption (Sun Directory Server Enterprise Edition 7.0 Reference) ](https://docs.oracle.com/cd/E19424-01/820-4811/6ng8i26bn/index.html)
----
+
++++
 
 ### 共通鍵暗号、公開鍵暗号
 <!--
@@ -100,7 +101,7 @@ and whether you are communicating with the correct partner?
 -->
 **Public-key cryptography**
 
-![](https://docs.oracle.com/cd/E19424-01/820-4811/images/pcrypt.gif)
+![120%](https://docs.oracle.com/cd/E19424-01/820-4811/images/pcrypt.gif)
 
 [Key Encryption (Sun Directory Server Enterprise Edition 7.0 Reference) ](https://docs.oracle.com/cd/E19424-01/820-4811/6ng8i26bn/index.html)
 ---
