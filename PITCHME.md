@@ -64,14 +64,16 @@ and whether you are communicating with the correct partner?
 
 +++
 
-### Key Exchange
-
-
-+++
 
 ### Encryption
+<!--
+順番が逆になるけど、まずは二種類の暗号化方式について話す。
+理由は、鍵の管理方法のが
+-->
 	
-- symmetric key encryption, <br />Public-key cryptography
+- Symmetric-key cryptography
+
+- Public-key cryptography
 
 +++
 
@@ -81,6 +83,8 @@ and whether you are communicating with the correct partner?
 -->
 
 ![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/z9ws4Rp8VZHoHpnhlh9I3QhAqiIdQZg6aSOlCCu1e5SAFa.width-800.png)
+
+→ The requirement is sharing secret key **in some way in advance**
 
 [What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
 
@@ -94,6 +98,15 @@ and whether you are communicating with the correct partner?
 ![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/19DfiKodi3T25Xz7g9EDTyvF9di2SzvJo6JebRJaCN-1P_.width-808.png)
 
 [What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
+
++++
+
+### Key Exchange
+<!-- ここでは数学的な説明までは踏み込まないことを説明 -->
+
+Diffie-Hellman key exchange
+
+<!-- 素数の使い回しなどによって解読可能性が上がるなどの問題有り -->
 
 +++
 
@@ -158,6 +171,15 @@ Authentication
 	インターネットなどのコンピュータネットワークにおいてセキュリティを要求される通信を行うためのプロトコル
 
 +++
+
+### TECHNICAL TERMS
+
+- [ディフィー・ヘルマン鍵共有](https://ja.wikipedia.org/wiki/ディフィー・ヘルマン鍵共有)
+
+	事前の秘密の共有無しに、盗聴の可能性のある通信路を使って、暗号鍵の共有を可能にする暗号プロトコル
+
+---
+
 
 ### TECHNICAL TERMS
 
