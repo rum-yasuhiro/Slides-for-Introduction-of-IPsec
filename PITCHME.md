@@ -24,7 +24,7 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 -->
 
 +++
-### What is IPse？(1)<br />(15min)
+### What is IPsec？(1)<br />(15min)
 <!-- IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。-->
 
 - Encrypted communication
@@ -148,16 +148,6 @@ and whether you are communicating with the correct partner?
 
 ---
 
-
-### TECHNICAL TERMS
-
-- [VPN](https://ja.wikipedia.org/wiki/Virtual_Private_Network)
-
-	[インターネット](https://ja.wikipedia.org/wiki/インターネット)に跨って、[プライベートネットワーク](https://ja.wikipedia.org/wiki/プライベートネットワーク)を拡張する技術、およびそのネットワークのこと
-
-
-+++
-
 ### TECHNICAL TERMS
 
 - [HTTPS](https://ja.wikipedia.org/wiki/HTTPS)
@@ -191,6 +181,7 @@ and whether you are communicating with the correct partner?
 
 +++
 
+
 ### TECHNICAL TERMS
 
 - [改竄（かいざん）](https://ja.wikipedia.org/wiki/改竄)
@@ -202,6 +193,14 @@ and whether you are communicating with the correct partner?
 
 	書面上の手書き署名のセキュリティ特性を模倣するために用いられる公開鍵暗号技術の一種
 	[電子署名](https://ja.wikipedia.org/wiki/電子署名)とは異なる
+
++++
+
+### TECHNICAL TERMS
+
+- [VPN](https://ja.wikipedia.org/wiki/Virtual_Private_Network)
+
+	[インターネット](https://ja.wikipedia.org/wiki/インターネット)に跨って、[プライベートネットワーク](https://ja.wikipedia.org/wiki/プライベートネットワーク)を拡張する技術、およびそのネットワークのこと
 
 
 +++
