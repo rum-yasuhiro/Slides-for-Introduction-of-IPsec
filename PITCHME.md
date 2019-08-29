@@ -370,8 +370,11 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 - ESP(Encapsulated Security Payload), AH(Authentication Header)
 - トランスポートモード、トンネルモード
 
-+++
+- IKE vs IPsec AH/ESP
+- Basic idea of a tunnel
+- SAs & rekeying
 
++++
 
 ### IPsec
 <!--
@@ -381,10 +384,38 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 [](https://www.infraexpert.com/studygif/ipsecz13.gif)
 
 +++
+### IPsec Transport and Tunnel Mode
 
-### 
+
++++
+
+### IPsec AH ESP
+<!--
+AH is used to authenticate – but not encrypt
+ESP provides encryption and optional authentication
+-->
+- AH
+
+	パケットが改ざんされていないかどうか認証を行う。(HMAC)
+	パケットの暗号化はできない。
+
+- ESP
+
+	パケットが改ざんされていないかどうか認証を行う。(HMAC)
+	パケットのペイロード部の暗号化 ( DES or 3DES or AES ) を行う。
+
++++
+
+### SAs(Security Associations)
+
++++
+
+### Rekeying
+
+
 
 ---
+
 ### TECHNICAL TERM
 
 - [通信プロトコル](https://ja.wikipedia.org/wiki/通信プロトコル)
@@ -403,8 +434,6 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 
 ### TECHNICAL TERMS
 
-
-
 - [OSI参照モデル](https://ja.wikipedia.org/wiki/OSI参照モデル)
 
 	コンピュータの持つべき通信機能を階層構造に分割したモデルのこと
@@ -414,6 +443,11 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 ### Reference So Far
 
 
+- [IPsec - SA ( Security Association )](https://www.infraexpert.com/study/ipsec7.html)
+
+- [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
+
+- [Introduction to IP Security (IPSec) - Cisco](https://www.cisco.com/c/en/us/td/docs/wireless/asr_5000/20/IPSec/b_20_IPSec/b_20_IPSec_chapter_01011.pdf)
 
 ---
 
