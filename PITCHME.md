@@ -27,7 +27,7 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 ---
 
-### What is IPsec？(1)<br />(15min)
+### What is IPsec？(1)<br />(10min)
 <!-- IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。-->
 
 - Encrypted communication |
@@ -36,7 +36,7 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 +++
 
-## Cryptosystem <br />(10min)
+## Cryptosystem <br />(8min)
 <!--
 ここで、暗号システムには「暗号化」、「完全性の保証」、「認証」が必要であることとその理由を先に説明。
 このあとで、それぞれの目的と手法について少し詳しく説明する。
@@ -130,9 +130,9 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 ### Anthentication
 	
-- **Data integrity(データの完全性)**
-
 The act of proving an assertion based on identification information
+
+- data integrity |
 
 +++
 
@@ -140,22 +140,49 @@ The act of proving an assertion based on identification information
 	
 - Hash function(ハッシュ関数)
 
+[](https://freecontent.manning.com/wp-content/uploads/Rosenbaum_CHaB_02.png)
+https://microsoftou.com/whats-hash-function/
+
 +++
 
 ### Anthentication
 
-- **Data integrity(データの完全性)**
+[](https://freecontent.manning.com/wp-content/uploads/Rosenbaum_CHaB_02.png)
+[](https://freecontent.manning.com/wp-content/uploads/Rosenbaum_CHaB_03.png)
 
-- HMAC(ハッシュメッセージ認証符号)
+https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
+
+<!--
+これだけではdata integrityは保証できるが、正しい相手とcommunicateできているかはどうかは保証できない
+そこで、Authentificationを達成するために、HMACやdigital signatureなどの技術がhash fucntionと組み合わせて用いられる。
+-->
++++
+
+### Anthentication
+
+**Data integrity(データの完全性)**
+
+- MAC(メッセージ認証符号)
+
+	Based on the Symmetric-key cryptography
+	
+	Generate: Data + Symmetric-key
+	Check : Data + Symmetric-key
 
 - Digital Signature(デジタル署名)
+	
+	Based on the Public-key cryptography
+	
+	Generate: Data + Secret-key
+	Check : Data + Public-key
 
 ---
 
-## VPN <br />(5min)
+## VPN <br />(3min)
 <!--
 <メモ>
 -->
+![](https://www.ipvanish.com/images/a/open-graph-img/why-vpn-min.jpg)
 
 +++
 
@@ -287,9 +314,15 @@ The act of proving an assertion based on identification information
 ### Reference So Far
 
 - [情報セキュリティ Capn Network](http://capm-network.com/?tag=%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3)
-	- [メッセージ認証コード Capn NetWork](http://capm-network.com/?tag=%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%AA%8D%E8%A8%BC%E3%82%B3%E3%83%BC%E3%83%89)
+	
 	- [鍵配送問題 Capn Network](http://capm-network.com/?tag=%E9%8D%B5%E9%85%8D%E9%80%81%E5%95%8F%E9%A1%8C)
 	- [暗号通信 Capm Network](http://capm-network.com/?tag=%E6%9A%97%E5%8F%B7%E9%80%9A%E4%BF%A1)
+	
+	- [ハッシュ関数 Capn Network](http://capm-network.com/?tag=%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E9%96%A2%E6%95%B0)
+	- [メッセージ認証コード Capn NetWork](http://capm-network.com/?tag=%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%AA%8D%E8%A8%BC%E3%82%B3%E3%83%BC%E3%83%89)
+	- [デジタル署名とデジタル証明書 Capn Network](http://capm-network.com/?tag=%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%BD%B2%E5%90%8D%E3%81%A8%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E8%A8%BC%E6%98%8E%E6%9B%B8)
+	
+	
 
 - [What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
 
