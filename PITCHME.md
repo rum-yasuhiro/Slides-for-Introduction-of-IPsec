@@ -12,7 +12,7 @@ This slide is for explanation of classical cryptography<br />
 
 ---
 
-## What is IPsec？(30min)
+## What is IPsec?(30min)
 ## Fun hands on! (30min)
 
 <!--
@@ -25,7 +25,8 @@ IPSecでは、暗号化をIP（Internet Protocol）プロトコルのレベル�
 IP層レベルで自動的に暗号化された通信を行うので、上位のアプリケーションでは暗号化のことを特別に意識する必要はない。
 -->
 
-+++
+---
+
 ### What is IPsec？(1)<br />(15min)
 <!-- IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。-->
 
@@ -34,12 +35,6 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 
 +++
-### Alphabet shift cipher
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/1024px-Caesar_cipher_left_shift_of_3.svg.png)
-https://en.wikipedia.org/wiki/Cryptography
-
----
 
 ## Cryptosystem <br />(10min)
 <!--
@@ -48,6 +43,13 @@ https://en.wikipedia.org/wiki/Cryptography
 さらにここで、AliceとBobの図を描いて説明
 -->
 ![bg](https://i1.wp.com/www.mobileworldlive.com/wp-content/uploads/2016/02/shutterstock_103378880.jpg?w=500&ssl=1)
+
++++
+
+### Alphabet shift cipher
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/1024px-Caesar_cipher_left_shift_of_3.svg.png)
+https://en.wikipedia.org/wiki/Cryptography
 
 +++
 
@@ -63,11 +65,11 @@ And third one is ...
 3. How to Check whether the message has been altered along the way
 and whether you are communicating with the correct partner?
 -->
-- Key Exchange |
+- Key Exchange(鍵交換) |
 
-- Encryption |
+- Encryption(暗号化) |
 
-- Anthentication, data integrity |
+- Anthentication(認証) |
 
 +++
 
@@ -78,9 +80,9 @@ and whether you are communicating with the correct partner?
 理由は、鍵の管理方法のが
 -->
 	
-- Symmetric-key cryptography |
+- Symmetric-key cryptography(共通鍵暗号) |
 
-- Public-key cryptography |
+- Public-key cryptography(公開鍵暗号) |
 
 - [Enigma](https://en.wikipedia.org/wiki/Enigma_machine) |
 
@@ -126,10 +128,27 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 +++
 
 
-### Anthentication, Data integrity
+### Anthentication
 	
-- 認証データ, MAC
-- Hash function, HMAC
+- **Data integrity(データの完全性)**
+
+The act of proving an assertion based on identification information
+
++++
+
+### Anthentication
+	
+- Hash function(ハッシュ関数)
+
++++
+
+### Anthentication
+
+- **Data integrity(データの完全性)**
+
+- HMAC(ハッシュメッセージ認証符号)
+
+- Digital Signature(デジタル署名)
 
 ---
 
@@ -140,7 +159,7 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 +++
 
-### VPN
+### VPN(Virtual )
 <!--
 <メモ>
 -->
@@ -191,17 +210,47 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 	文書、記録等の全部又は一部が、本来なされるべきでない時期に、本来なされるべきでない形式や内容などに変更されること、すること<br />
 	悪意の有無は問わない
+	
+- [なりすまし](http://capm-network.com/?tag=認証とは#改ざんとなりすましについて)
 
-- [データの完全性](https://ja.wikipedia.org/wiki/データ完全性#情報セキュリティ)
-
-	データの妥当性
+	そもそもデータが正規の通信相手から送付されたものかどうかも確認する必要がある
 
 +++
 
 ### TECHNICAL TERMS
 
+- [認証(anthentication)](https://ja.wikipedia.org/wiki/認証#Authentication)
+
+	識別情報に基づいて対象の正当性を確認すること
+
+- [データの完全性(data itegrity)](https://ja.wikipedia.org/wiki/データ完全性#情報セキュリティ)
+
+	データが改ざんされることなく妥当であること
+
++++
+
+### TECHNICAL TERMS
+
+**認証(Authentification)**
+
+- [メッセージ認証符号 (MAC)]()
+
+	データ改ざんの有無を検知するための固定長コード（ビット列）
+
++++
+
+### TECHNICAL TERMS
+
+**認証方式**
+
+- [HMAC](https://ja.wikipedia.org/wiki/HMAC)
+	
+	共通鍵と共に用いられる
+	ハッシュ関数と共通鍵を組合せて計算するMACのこと
+
 - [デジタル署名](https://ja.wikipedia.org/wiki/デジタル署名)
 
+	公開鍵と共に用いられる
 	書面上の手書き署名のセキュリティ特性を模倣するために用いられる公開鍵暗号技術の一種
 	[電子署名](https://ja.wikipedia.org/wiki/電子署名)とは異なる
 
@@ -223,7 +272,7 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 ---
 
-### Refrence So Far
+### Reference So Far
 
 - [IPsecをはじめから](https://www.infraexpert.com/study/study10.html)
 	- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
@@ -235,9 +284,10 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 +++
 
-### Refrence So Far
+### Reference So Far
 
-- [情報セキュリティ Capn Network]()
+- [情報セキュリティ Capn Network](http://capm-network.com/?tag=%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3)
+	- [メッセージ認証コード Capn NetWork](http://capm-network.com/?tag=%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%AA%8D%E8%A8%BC%E3%82%B3%E3%83%BC%E3%83%89)
 	- [鍵配送問題 Capn Network](http://capm-network.com/?tag=%E9%8D%B5%E9%85%8D%E9%80%81%E5%95%8F%E9%A1%8C)
 	- [暗号通信 Capm Network](http://capm-network.com/?tag=%E6%9A%97%E5%8F%B7%E9%80%9A%E4%BF%A1)
 
@@ -300,7 +350,7 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 
 ---
 
-### Refrence So Far
+### Reference So Far
 
 
 
