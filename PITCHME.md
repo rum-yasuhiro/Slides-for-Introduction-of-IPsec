@@ -216,7 +216,7 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 	
 - [QKD (Quantum Key Distribution)]()
 
----
++++
 
 ### TECHNICAL TERMS
 
@@ -327,7 +327,7 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 ---
 
-## What is IPsec？(Again)
+## What is IPsec？(2)<br />(10min)
 <!--
 IPsecは暗号化通信を実現するための複数のプロトコルの総称
 ここではモードと中核をなすいくつかのプロトコルについて紹介する
@@ -340,7 +340,7 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 +++
 
 
-### IPsec　<br />(10min)
+### IPsec
 <!--
 <メモ>
 -->
