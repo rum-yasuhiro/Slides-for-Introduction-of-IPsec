@@ -22,7 +22,7 @@ This slide is for explanation of classical cryptography<br />
 しかし、これらはWebブラウザや電子メール・クライアントといった、特定のアプリケーションでのみ暗号化を行うものであり、汎用性がない。
 そこで、アプリケーションに関係なく、すべての通信を自動的に暗号化してしまおうと考えられたのが、今回解説するIPSecである。
 IPSecでは、暗号化をIP（Internet Protocol）プロトコルのレベルで行い、ホストごとにセキュリティを確保することを目的としている。
-IP層レベルで自動的に暗号化された通信を行うので、上位のアプリケーションでは暗号化のことを特別に意識する必要はない。
+ネットワーク層レベルで自動的に暗号化された通信を行うので、上位のアプリケーションでは暗号化のことを特別に意識する必要はない。
 -->
 
 ---
@@ -109,6 +109,7 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 - [**Diffie-Hellman key exchange**](https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange)
 
 [](http://blog.trendmicro.com/trendlabs-security-intelligence/files/2015/09/anglerek_dh_01.jpg)
+
 https://blog.trendmicro.com/trendlabs-security-intelligence/how-exploit-kit-operators-are-misusing-diffie-hellman-key-exchange/
 
 <!-- 素数の使い回しなどによって解読可能性が上がるなどの問題有り -->
@@ -185,11 +186,24 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 +++
 
-### VPN(Virtual )
+[](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj9h-CE-afkAhUNCqYKHUcDBC0QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.pandasecurity.com%2Fmediacenter%2Fmalware%2Fmost-famous-hackers-in-history%2F&psig=AOvVaw1MVo047kYMBhaMdYyMjB7p&ust=1567163471663745)
+
++++
+
+### VPN(Virtual Private Network)
 <!--
-<メモ>
+VPNとは仮想的なプライベートネットワーク接続のことで、セキュアな通信が可能となります。
+VPNには閉じられた専用回線を用いる、IP VPNとInternetなどのpublic network上で行うInternet VPNが有ります。
+Internet VPNはIP VPNと比較して、費用を削減できます。
+そして、このInternet VPNを実現するセキュリティプロトコルが今回紹介する、IPsecです。
 -->
 
+Virtual private network connection
+- Internet VPN
+- IP VPN
+
+[](https://www.webhostingsecretrevealed.net/wp-content/uploads/2018/12/what-is-vpn-service.jpg)
+https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
 ---
 
 ### TECHNICAL TERMS
@@ -292,6 +306,24 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 ### TECHNICAL TERMS
 
+- インターネットVPN
+
+	インターネット回線を利用するVPN
+	- IPsec-VPN
+	セキュリティプロトコルにIPsecを使用したインターネットVPNのこと
+	 
+	- SSL-VPN
+	セキュリティプロトコルにSSLを使用したインターネットVPNのこと
+
+- IP VPN
+
+	- MPLS-VPN
+	通信事業者のプライベートIP網内で経路情報の探索にMPLSを採用したVPNのこと
+
++++
+
+### TECHNICAL TERMS
+
 - [用語](url)
 
 	説明
@@ -333,9 +365,10 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 ここではモードと中核をなすいくつかのプロトコルについて紹介する
 -->
 
-- アプリケーションに関係なく、全ての通信を自動的に暗号化するためのIP Security Protocol
-
-- VPN構築の際に利用されるもの
+- SA(Security Association)
+- IKE(Internet Key Exchange)
+- ESP(Encapsulated Security Payload), AH(Authentication Header)
+- トランスポートモード、トンネルモード
 
 +++
 
@@ -344,11 +377,9 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 <!--
 <メモ>
 -->
+**Layer**
+[](https://www.infraexpert.com/studygif/ipsecz13.gif)
 
-- トランスポートモード、トンネルモード
-- SA
-- IKE
-- ESPとAH
 +++
 
 ### 
@@ -371,8 +402,6 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 +++
 
 ### TECHNICAL TERMS
-
-- [IP層]()
 
 
 
