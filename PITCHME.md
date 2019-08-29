@@ -27,14 +27,13 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 ---
 
-### What is IPsec？(1)<br />(15min)
+## What is IPsec？(1)<br />(15min)
 <!-- IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。-->
 
-- Encrypted communication |
-- VPN |
+- Encrypted communication
+- VPN
 
-
-+++
+---
 
 ## Cryptosystem <br />(12min)
 <!--
