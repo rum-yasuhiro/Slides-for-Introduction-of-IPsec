@@ -266,7 +266,7 @@ https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
 
 ### TECHNICAL TERMS
 
-**認証(Authentification)**
+**認証(Authentication)**
 
 - [メッセージ認証符号 (MAC)]()
 
@@ -375,11 +375,11 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 
 ### Encpslation
 
-
+![](./imgipsec2encapsulation.gif)
 
 +++
 
-### IPsec Transport and Tunnel Mode
+### Transport Mode <br />Tunnel Mode
 
 あとで画像作る
 
@@ -396,9 +396,9 @@ IPsecはパケットごとに暗号化や認証を行う
 
 ### IKE(Internet Key Exchange)
 
-Phase 1: Generate and Exchange the key for Phase 2 |
+- Phase 1: Generate and Exchange the key for Phase 2
 
-Phase 2: Negotiate SA(Security Association) |
+- Phase 2: Negotiate SA(Security Association)
 
 +++
 
@@ -407,15 +407,27 @@ Phase 2: Negotiate SA(Security Association) |
 AH is used to authenticate – but not encrypt
 ESP provides encryption and optional authentication
 -->
+
+ ![](./img/ipsec2ahesp.png)
+ http://jazier.blogspot.com/2015/08/ipsec-vpn-theory.html
++++
+
+### AH and ESP
 - AH(Authentication Header)
 
-	パケットが改ざんされていないかどうか認証を行う。(HMAC)
+	パケットが改ざんされていないかどうか認証を行う。(HMAC)<br />
 	パケットの暗号化はできない。
 
 - ESP(Encapsulated Security Payload)
 
-	パケットが改ざんされていないかどうか認証を行う。(HMAC)
+	パケットが改ざんされていないかどうか認証を行う。(HMAC)<br />
 	パケットのペイロード部の暗号化 ( DES or 3DES or AES ) を行う。
+
++++
+
+### AH and ESP
+
+![](./img/ipsec2ahesp2.png)
 
 +++
 
@@ -459,6 +471,7 @@ https://thetechlogy.com/osi-and-tcp-ip-model/
 
 - [Introduction to IP Security (IPSec) - Cisco](https://www.cisco.com/c/en/us/td/docs/wireless/asr_5000/20/IPSec/b_20_IPSec/b_20_IPSec_chapter_01011.pdf)
 
+- [IPsec VPN Theory Cisco Routing & Switching and Security]( http://jazier.blogspot.com/2015/08/ipsec-vpn-theory.html)
 ---
 
 ## Hands-on(30min)
