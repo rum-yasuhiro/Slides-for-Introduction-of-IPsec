@@ -139,15 +139,15 @@ The act of proving an assertion based on identification information
 	
 - Hash function(ハッシュ関数)
 
-[](./img/ipsec1hashfuncion)
+[](./img/ipsec1hashfuncion.png)
 https://microsoftou.com/whats-hash-function/
 
 +++
 
 ### Anthentication
 
-[](./img/ipsec1hashfuncion)
-[](./img/ipsec1hashfuncion2)
+[](./img/ipsec1hashfuncion.png)
+[](./img/ipsec1hashfuncion2.png)
 
 https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
@@ -197,7 +197,7 @@ Virtual private network connection
 - Internet VPN
 - IP VPN
 
-[](./img/ipsec1vpn)
+[](./img/ipsec1vpn.png)
 https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
 ---
 
@@ -369,7 +369,8 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 <メモ>
 -->
 **Layer**
-[](https://www.infraexpert.com/studygif/ipsecz13.gif)
+あとで画像作る
+[]()
 
 +++
 
@@ -435,8 +436,8 @@ ESP provides encryption and optional authentication
 - [OSI参照モデル](https://ja.wikipedia.org/wiki/OSI参照モデル)
 
 	コンピュータの持つべき通信機能を階層構造に分割したモデルのこと
-[](./img/ipsec2osimodel)
-
+[](./img/ipsec2osimodel.png)
+https://thetechlogy.com/osi-and-tcp-ip-model/
 ---
 
 ### Reference So Far
