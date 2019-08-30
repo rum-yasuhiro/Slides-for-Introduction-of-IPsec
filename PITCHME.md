@@ -108,7 +108,7 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 - [**Diffie-Hellman key exchange**](https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange)
 
-[](./img/ipsec1diffiehellman.png)
+![](./img/ipsec1diffiehellman.jpg)
 
 https://blog.trendmicro.com/trendlabs-security-intelligence/how-exploit-kit-operators-are-misusing-diffie-hellman-key-exchange/
 
@@ -139,15 +139,15 @@ The act of proving an assertion based on identification information
 	
 - Hash function(ハッシュ関数)
 
-[](./img/ipsec1hashfuncion.png)
+![](./img/ipsec1hashfuncion.png)
 https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 +++
 
 ### Anthentication
 
-[](./img/ipsec1hashfuncion.png)
-[](./img/ipsec1hashfuncion2.png)
+![](./img/ipsec1hashfuncion.png)
+![](./img/ipsec1hashfuncion2.png)
 
 https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
@@ -197,7 +197,7 @@ Virtual private network connection
 - Internet VPN
 - IP VPN
 
-[](./img/ipsec1vpn.png)
+[](./img/ipsec1vpn.jpg)
 https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
 ---
 
@@ -436,7 +436,7 @@ ESP provides encryption and optional authentication
 - [OSI参照モデル](https://ja.wikipedia.org/wiki/OSI参照モデル)
 
 	コンピュータの持つべき通信機能を階層構造に分割したモデルのこと
-[](./img/ipsec2osimodel.png)
+![](./img/ipsec2osimodel.png)
 https://thetechlogy.com/osi-and-tcp-ip-model/
 ---
 
