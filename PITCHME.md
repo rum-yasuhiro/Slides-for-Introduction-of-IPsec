@@ -108,7 +108,7 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 - [**Diffie-Hellman key exchange**](https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange)
 
-[](./img/ipsec1diffiehellman)
+[](./img/ipsec1diffiehellman.png)
 
 https://blog.trendmicro.com/trendlabs-security-intelligence/how-exploit-kit-operators-are-misusing-diffie-hellman-key-exchange/
 
@@ -120,7 +120,7 @@ https://blog.trendmicro.com/trendlabs-security-intelligence/how-exploit-kit-oper
 ### Encryption
 <!-- <メモ> -->
 
-![](./img/ipsec1publickeycryptograph)
+![](./img/ipsec1publickeycryptograph.png)
 
 https://www.twilio.com/blog/what-is-public-key-cryptography
 
@@ -140,7 +140,7 @@ The act of proving an assertion based on identification information
 - Hash function(ハッシュ関数)
 
 [](./img/ipsec1hashfuncion.png)
-https://microsoftou.com/whats-hash-function/
+https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 +++
 
