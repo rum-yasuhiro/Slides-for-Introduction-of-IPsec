@@ -374,7 +374,7 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 
 ### Encpsulation
 
-![](./img/ipsec2encapsulation.gif)
+![](./img/ipsec2encapsulation.png)
 
 +++
 
