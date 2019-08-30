@@ -124,6 +124,11 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 
 ---
 
+### Hands-on
+
+[This](https://drive.google.com/open?id=15dCljthLrtDskK0bEveo6B9Y4XRDQBoQ) is the notebook of IPsec.
+Please access here with your keio.jp
+
 
 ### Reference 
 IT管理者のためのIPSec講座
