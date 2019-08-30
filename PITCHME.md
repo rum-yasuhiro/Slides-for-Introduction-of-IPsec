@@ -30,8 +30,8 @@ IPSecでは、暗号化をIP（Internet Protocol）プロトコルのレベル�
 ## What is IPsec？(1)<br />(15min)
 <!-- IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。-->
 
-- Encrypted communication
-- VPN
+- Encrypted communication(12min)
+- VPN(3min)
 
 ---
 
@@ -87,7 +87,7 @@ and whether you are communicating with the correct partner?
 
 - [One-time pad](https://en.wikipedia.org/wiki/One-time_pad) |
 
-...
+- etc... |
 
 +++
 
@@ -108,20 +108,19 @@ https://www.twilio.com/blog/what-is-public-key-cryptography
 
 - [**Diffie-Hellman key exchange**](https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange)
 
-[](http://blog.trendmicro.com/trendlabs-security-intelligence/files/2015/09/anglerek_dh_01.jpg)
+[](./img/ipsec1diffiehellman)
 
 https://blog.trendmicro.com/trendlabs-security-intelligence/how-exploit-kit-operators-are-misusing-diffie-hellman-key-exchange/
 
 <!-- 素数の使い回しなどによって解読可能性が上がるなどの問題有り -->
 
-- [**QKD**](https://en.wikipedia.org/wiki/Quantum_key_distribution)
 
 +++
 
 ### Encryption
 <!-- <メモ> -->
 
-![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/19DfiKodi3T25Xz7g9EDTyvF9di2SzvJo6JebRJaCN-1P_.width-808.png)
+![](./img/ipsec1publickeycryptograph)
 
 https://www.twilio.com/blog/what-is-public-key-cryptography
 
@@ -140,15 +139,15 @@ The act of proving an assertion based on identification information
 	
 - Hash function(ハッシュ関数)
 
-[](https://freecontent.manning.com/wp-content/uploads/Rosenbaum_CHaB_02.png)
+[](./img/ipsec1hashfuncion)
 https://microsoftou.com/whats-hash-function/
 
 +++
 
 ### Anthentication
 
-[](https://freecontent.manning.com/wp-content/uploads/Rosenbaum_CHaB_02.png)
-[](https://freecontent.manning.com/wp-content/uploads/Rosenbaum_CHaB_03.png)
+[](./img/ipsec1hashfuncion)
+[](./img/ipsec1hashfuncion2)
 
 https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
@@ -164,16 +163,16 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 - MAC(メッセージ認証符号)
 
-	Based on the Symmetric-key cryptography
+	Based on the Symmetric-key cryptography<br />
 	
-	Generate: Data + Symmetric-key
+	Generate: Data + Symmetric-key<br />
 	Check : Data + Symmetric-key
 
 - Digital Signature(デジタル署名)
 	
-	Based on the Public-key cryptography
+	Based on the Public-key cryptography<br />
 	
-	Generate: Data + Secret-key
+	Generate: Data + Secret-key<br />
 	Check : Data + Public-key
 
 ---
@@ -183,10 +182,6 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 <メモ>
 -->
 ![](https://www.ipvanish.com/images/a/open-graph-img/why-vpn-min.jpg)
-
-+++
-
-[](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj9h-CE-afkAhUNCqYKHUcDBC0QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.pandasecurity.com%2Fmediacenter%2Fmalware%2Fmost-famous-hackers-in-history%2F&psig=AOvVaw1MVo047kYMBhaMdYyMjB7p&ust=1567163471663745)
 
 +++
 
@@ -202,7 +197,7 @@ Virtual private network connection
 - Internet VPN
 - IP VPN
 
-[](https://www.webhostingsecretrevealed.net/wp-content/uploads/2018/12/what-is-vpn-service.jpg)
+[](./img/ipsec1vpn)
 https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
 ---
 
@@ -352,8 +347,6 @@ https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
 	- [ハッシュ関数 Capn Network](http://capm-network.com/?tag=%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E9%96%A2%E6%95%B0)
 	- [メッセージ認証コード Capn NetWork](http://capm-network.com/?tag=%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%AA%8D%E8%A8%BC%E3%82%B3%E3%83%BC%E3%83%89)
 	- [デジタル署名とデジタル証明書 Capn Network](http://capm-network.com/?tag=%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%BD%B2%E5%90%8D%E3%81%A8%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E8%A8%BC%E6%98%8E%E6%9B%B8)
-	
-	
 
 - [What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
 
@@ -364,11 +357,6 @@ https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
 IPsecは暗号化通信を実現するための複数のプロトコルの総称
 ここではモードと中核をなすいくつかのプロトコルについて紹介する
 -->
-
-- SA(Security Association)
-- IKE(Internet Key Exchange)
-- ESP(Encapsulated Security Payload), AH(Authentication Header)
-- トランスポートモード、トンネルモード
 
 - IKE vs IPsec AH/ESP
 - Basic idea of a tunnel
@@ -384,37 +372,47 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 [](https://www.infraexpert.com/studygif/ipsecz13.gif)
 
 +++
+
 ### IPsec Transport and Tunnel Mode
+
 
 
 +++
 
-### IPsec AH ESP
+### SAs(Security Associations)
+
+
+
++++
+
+### IKE(Internet Key Exchange)
+
+
+
++++
+
+### AH and ESP
 <!--
 AH is used to authenticate – but not encrypt
 ESP provides encryption and optional authentication
 -->
-- AH
+- AH(Authentication Header)
 
 	パケットが改ざんされていないかどうか認証を行う。(HMAC)
 	パケットの暗号化はできない。
 
-- ESP
+- ESP(Encapsulated Security Payload)
 
 	パケットが改ざんされていないかどうか認証を行う。(HMAC)
 	パケットのペイロード部の暗号化 ( DES or 3DES or AES ) を行う。
 
 +++
 
-### SAs(Security Associations)
+### SAs and Rekeying
+
+
 
 +++
-
-### Rekeying
-
-
-
----
 
 ### TECHNICAL TERM
 
