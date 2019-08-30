@@ -130,6 +130,8 @@ IP層レベルで自動的に暗号化された通信を行うので、上位の
 Please access here with your keio.jp
 
 
+---
+
 ### Reference 
 IT管理者のためのIPSec講座
 IPsecとは？
