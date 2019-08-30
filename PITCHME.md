@@ -358,37 +358,47 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 ここではモードと中核をなすいくつかのプロトコルについて紹介する
 -->
 
+- Encpsulation
 - IKE vs IPsec AH/ESP
 - Basic idea of a tunnel
 - SAs & rekeying
 
 +++
 
-### IPsec
-<!--
-<メモ>
--->
-**Layer**
+### Encpslation
+
+**IPsec Layer**
 あとで画像作る
 []()
 
 +++
 
+### Encpslation
+
+
+
++++
+
 ### IPsec Transport and Tunnel Mode
 
-
+あとで画像作る
 
 +++
 
 ### SAs(Security Associations)
 
+**Negotiation** to decide which protocol do we use
 
+
+IPsecはパケットごとに暗号化や認証を行う
 
 +++
 
 ### IKE(Internet Key Exchange)
 
+Phase 1: Generate and Exchange the key for Phase 2 |
 
+Phase 2: Negotiate SA(Security Association) |
 
 +++
 
@@ -450,6 +460,10 @@ https://thetechlogy.com/osi-and-tcp-ip-model/
 - [Introduction to IP Security (IPSec) - Cisco](https://www.cisco.com/c/en/us/td/docs/wireless/asr_5000/20/IPSec/b_20_IPSec/b_20_IPSec_chapter_01011.pdf)
 
 ---
+
+## Hands-on(30min)
+
++++
 
 ### Hands-on
 
