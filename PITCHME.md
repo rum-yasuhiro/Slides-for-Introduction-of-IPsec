@@ -375,6 +375,7 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 ### Encpsulation
 
 ![](./img/ipsec2encapsulation.png)
+https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 
 +++
 
@@ -391,13 +392,15 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 
 IPsecはパケットごとに暗号化や認証を行う
 
+<!-- SAは-->
 +++
 
 ### IKE(Internet Key Exchange)
 
-- Phase 1: Generate and Exchange the key for Phase 2
 
-- Phase 2: Negotiate SA(Security Association)
+- Phase1: Generate and Exchange the key for Phase2
+
+- Phase2: Negotiate SA(Security Association)
 
 +++
 
@@ -465,12 +468,16 @@ https://thetechlogy.com/osi-and-tcp-ip-model/
 
 
 - [IPsec - SA ( Security Association )](https://www.infraexpert.com/study/ipsec7.html)
+- [IPsec - Transport mode / Tunnel mode](https://www.infraexpert.com/study/ipsec6.html)
 
 - [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
 
 - [Introduction to IP Security (IPSec) - Cisco](https://www.cisco.com/c/en/us/td/docs/wireless/asr_5000/20/IPSec/b_20_IPSec/b_20_IPSec_chapter_01011.pdf)
 
 - [IPsec VPN Theory Cisco Routing & Switching and Security]( http://jazier.blogspot.com/2015/08/ipsec-vpn-theory.html)
+
+- [データはどうやって伝わるの？](https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html)
+
 ---
 
 ## Hands-on(30min)
