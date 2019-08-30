@@ -412,7 +412,7 @@ ESP provides encryption and optional authentication
 
 
 
-+++
+---
 
 ### TECHNICAL TERM
 
@@ -435,6 +435,7 @@ ESP provides encryption and optional authentication
 - [OSI参照モデル](https://ja.wikipedia.org/wiki/OSI参照モデル)
 
 	コンピュータの持つべき通信機能を階層構造に分割したモデルのこと
+[](./img/ipsec2osimodel)
 
 ---
 
