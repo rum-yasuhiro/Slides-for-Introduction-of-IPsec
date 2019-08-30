@@ -375,7 +375,7 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 
 ### Encpslation
 
-![](./imgipsec2encapsulation.gif)
+![](./img/ipsec2encapsulation.gif)
 
 +++
 
@@ -458,7 +458,8 @@ ESP provides encryption and optional authentication
 - [OSI参照モデル](https://ja.wikipedia.org/wiki/OSI参照モデル)
 
 	コンピュータの持つべき通信機能を階層構造に分割したモデルのこと
-![](./img/ipsec2osimodel.png)
+![](./img/ipsec2osimodel.jpg)
+
 https://thetechlogy.com/osi-and-tcp-ip-model/
 ---
 
