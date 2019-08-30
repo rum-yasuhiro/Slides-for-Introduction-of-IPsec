@@ -35,7 +35,7 @@ IPSecでは、暗号化をIP（Internet Protocol）プロトコルのレベル�
 
 ---
 
-## Cryptosystem <br />(12min)
+## Cryptosystem (12min)
 <!--
 ここで、暗号システムには「暗号化」、「完全性の保証」、「認証」が必要であることとその理由を先に説明。
 このあとで、それぞれの目的と手法について少し詳しく説明する。
@@ -177,7 +177,7 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 ---
 
-## VPN <br />(3min)
+## VPN (3min)
 <!--
 <メモ>
 -->
@@ -193,11 +193,10 @@ Internet VPNはIP VPNと比較して、費用を削減できます。
 そして、このInternet VPNを実現するセキュリティプロトコルが今回紹介する、IPsecです。
 -->
 
-Virtual private network connection
 - Internet VPN
 - IP VPN
 
-[](./img/ipsec1vpn.jpg)
+![](./img/ipsec1vpn.jpg)
 https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
 ---
 
@@ -369,11 +368,11 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 
 **IPsec Layer**
 あとで画像作る
-[]()
+![]()
 
 +++
 
-### Encpslation
+### Encpsulation
 
 ![](./img/ipsec2encapsulation.gif)
 
@@ -408,8 +407,8 @@ AH is used to authenticate – but not encrypt
 ESP provides encryption and optional authentication
 -->
 
- ![](./img/ipsec2ahesp.png)
- http://jazier.blogspot.com/2015/08/ipsec-vpn-theory.html
+![](./img/ipsec2ahesp.png)
+http://jazier.blogspot.com/2015/08/ipsec-vpn-theory.html
 +++
 
 ### AH and ESP
@@ -457,7 +456,6 @@ ESP provides encryption and optional authentication
 
 - [OSI参照モデル](https://ja.wikipedia.org/wiki/OSI参照モデル)
 
-	コンピュータの持つべき通信機能を階層構造に分割したモデルのこと
 ![](./img/ipsec2osimodel.jpg)
 
 https://thetechlogy.com/osi-and-tcp-ip-model/
