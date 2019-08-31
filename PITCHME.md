@@ -374,7 +374,7 @@ https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 ### Encapsulation
 
 **IPsec Layer**
-![](./img/ipsec2osiipseclayer.png)
+![200%](./img/ipsec2osiipseclayer.png)
 
 +++
 
