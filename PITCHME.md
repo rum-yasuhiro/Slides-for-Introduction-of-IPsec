@@ -364,18 +364,17 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 
 +++
 
-### Encpslation
-
-**IPsec Layer**
-あとで画像作る
-![]()
-
-+++
-
-### Encpsulation
+### Encapsulation
 
 ![](./img/ipsec2encapsulation.png)
 https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
+
++++
+
+### Encapsulation
+
+**IPsec Layer**
+![](./img/ipsec2osiipseclayer.png)
 
 +++
 
