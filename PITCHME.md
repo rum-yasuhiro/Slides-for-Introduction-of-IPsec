@@ -392,11 +392,20 @@ https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 https://www.cse.wustl.edu/~jain/cse571-11/ftp/l_19ips.pdf
 +++
 
-### SAs(Security Associations)
+### SAs(Security Associations) 
 
 IPsec performs encryption and authentication for each packet
-<img src="./img/ipsec2sa.png" height=200px />
-https://www.tutorialspoint.com/network_security/network_security_layer.htm
+
+SPI(Security poiner idex)
+
+<!-- 
+SPIは暗号化通信で各パケット中に挿入され、パケット内の通信内容がどのような暗号化アルゴリズムで暗号化されたのか、どの暗号鍵を使うのかといったことを示すガイドとなる。
+SPIを各パケットに挿入するのは、ホストが同時に複数の相手と暗号化通信を行うことがあるからだ。
+このとき、それぞれの相手と個別にネゴシエーションを行うため、それぞれの通信で使用する暗号化アルゴリズムや暗号鍵などのSAが異なってしまう。
+そのため、パケットを受信するたびに、暗号化アルゴリズムと暗号鍵を照合する必要がある。
+そこで、パケット内のSPIを検索キーのように使って、必要な情報を引き出すようにしている。
+SPIの値は、この値から暗号化アルゴリズムや暗号鍵が推測できないように、暗号化通信の開始時に任意のものが割り当てられ、値の意味がネゴシエーションを行った当事者者同士以外には分からないように工夫されている
+-->
 +++
 
 ### SAs(Security Associations)
@@ -409,13 +418,19 @@ https://www.tutorialspoint.com/network_security/network_security_layer.htm
 
 ### IKE(Internet Key Exchange)
 
-<img src=./img/ike.png />
+<img src="./img/ike.png" />
 
-- Phase1: Generate and Exchange the key for Phase2
+- Phase1: Generate and Exchange the key
 
 - Phase2: Negotiate SA(Security Association)
 
 - Start Fun IPsec!!
+
++++
+
+### IKE(Internet Key Exchange)
+
+<img src="./img/ipsec2sas.png" />
 
 +++
 
@@ -432,13 +447,13 @@ http://jazier.blogspot.com/2015/08/ipsec-vpn-theory.html
 ### AH and ESP
 - AH(Authentication Header)
 
-	パケットが改ざんされていないかどうか認証を行う。(HMAC)<br />
-	パケットの暗号化はできない。
+	- Authenticates whether the packet has been tampered with.
+	- Packet encryption is not possible.
 
 - ESP(Encapsulated Security Payload)
 
-	パケットが改ざんされていないかどうか認証を行う。(HMAC)<br />
-	パケットのペイロード部の暗号化 ( DES or 3DES or AES ) を行う。
+	- Authenticates whether the packet has been tampered with.
+	- Encrypt the payload part of the packet.
 
 +++
 
@@ -449,6 +464,7 @@ http://jazier.blogspot.com/2015/08/ipsec-vpn-theory.html
 +++
 
 ### SAs and Rekeying
+
 
 
 
