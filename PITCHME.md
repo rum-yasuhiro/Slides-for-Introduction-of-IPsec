@@ -387,12 +387,24 @@ https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 
 ### SAs(Security Associations)
 
+IPsec performs encryption and authentication for each packet
+![](./img/ipsec2sa.jpg)
+https://www.tutorialspoint.com/network_security/network_security_layer.htm
++++
+
+### SAs(Security Associations)
+
+- To send and receive packets, you need a SA for sending and a SA for receiving
+- SA is unique for each IPsec encapsulation protocol
+
+
++++
+
+### SAs(Security Associations)
+
 **Negotiation** to decide which protocol do we use
 
 
-IPsecはパケットごとに暗号化や認証を行う
-
-<!-- SAは-->
 +++
 
 ### IKE(Internet Key Exchange)
