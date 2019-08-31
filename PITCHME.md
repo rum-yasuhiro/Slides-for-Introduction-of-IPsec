@@ -419,7 +419,7 @@ SPIの値は、この値から暗号化アルゴリズムや暗号鍵が推測�
 
 ### IKE(Internet Key Exchange)
 
-<img src="./img/ike.png"  heigt=100px />
+<img src="./img/ike.png"  heigt=50px />
 
 - Phase1: Generate and Exchange the key
 
