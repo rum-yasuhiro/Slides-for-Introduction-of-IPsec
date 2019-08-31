@@ -366,6 +366,10 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 
 ### Encapsulation
 
++++
+
+### Encapsulation
+
 ![](./img/ipsec2encapsulation.png)
 https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 
@@ -384,14 +388,14 @@ https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 
 ### Transport Mode <br />Tunnel Mode
 
-<img src="./img/ipsec2tunneltransport" height=500px />
+<img src="./img/ipsec2tunneltransport.png" height=500px />
 https://www.cse.wustl.edu/~jain/cse571-11/ftp/l_19ips.pdf
 +++
 
 ### SAs(Security Associations)
 
 IPsec performs encryption and authentication for each packet
-<img src="./img/ipsec2sa.png" height=500px />
+<img src="./img/ipsec2sa.png" height=200px />
 https://www.tutorialspoint.com/network_security/network_security_layer.htm
 +++
 
