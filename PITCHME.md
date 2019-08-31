@@ -381,14 +381,19 @@ https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 
 ### Transport Mode <br />Tunnel Mode
 
-あとで画像作る
++++
 
+### Transport Mode <br />Tunnel Mode
+
+![](./img/ipsec2tunneltransport)
+https://www.cse.wustl.edu/~jain/cse571-11/ftp/l_19ips.pdf
 +++
 
 ### SAs(Security Associations)
 
 IPsec performs encryption and authentication for each packet
-![](./img/ipsec2sa.jpg)
+**Negotiation** to decide which protocol do we use
+![](./img/ipsec2sa.png)
 https://www.tutorialspoint.com/network_security/network_security_layer.htm
 +++
 
@@ -400,19 +405,14 @@ https://www.tutorialspoint.com/network_security/network_security_layer.htm
 
 +++
 
-### SAs(Security Associations)
-
-**Negotiation** to decide which protocol do we use
-
-
-+++
-
 ### IKE(Internet Key Exchange)
 
 
 - Phase1: Generate and Exchange the key for Phase2
 
 - Phase2: Negotiate SA(Security Association)
+
+- Start Fun IPsec!!
 
 +++
 
