@@ -374,7 +374,7 @@ https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 ### Encapsulation
 
 **IPsec Layer**
-<img src="./img/ipsec2osiipseclayer.png" width=1000px />
+<img src="./img/ipsec2osiipseclayer.png" width=1200px />
 
 +++
 
@@ -384,21 +384,20 @@ https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 
 ### Transport Mode <br />Tunnel Mode
 
-![](./img/ipsec2tunneltransport)
+<img src=./img/ipsec2tunneltransport height=500px />
 https://www.cse.wustl.edu/~jain/cse571-11/ftp/l_19ips.pdf
 +++
 
 ### SAs(Security Associations)
 
 IPsec performs encryption and authentication for each packet
-**Negotiation** to decide which protocol do we use
 ![](./img/ipsec2sa.png)
 https://www.tutorialspoint.com/network_security/network_security_layer.htm
 +++
 
 ### SAs(Security Associations)
 
-- To send and receive packets, you need a SA for sending and a SA for receiving
+- To send and receive packets, <br />you need a SA for sending and a SA for receiving
 - SA is unique for each IPsec encapsulation protocol
 
 
@@ -406,6 +405,7 @@ https://www.tutorialspoint.com/network_security/network_security_layer.htm
 
 ### IKE(Internet Key Exchange)
 
+<img src=./img/ike.png />
 
 - Phase1: Generate and Exchange the key for Phase2
 
