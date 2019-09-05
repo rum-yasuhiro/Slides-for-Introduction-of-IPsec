@@ -235,98 +235,113 @@ A VPN that uses MPLS to search for route information within the private IP netwo
 
 ### TECHNICAL TERMS
 
--[Information Security](https://en.wikipedia.org/wiki/Information Security)
-		
-		Maintain the confidentiality, integrity, and availability of information (Information CIA)
+<ul>
+<li>[Information Security](https://en.wikipedia.org/wiki/Information Security)</li>		
+
+Maintain the confidentiality, integrity, and availability of information (Information CIA)
 
 
--[HTTPS](https://en.wikipedia.org/wiki/HTTPS)
+<li>[HTTPS](https://en.wikipedia.org/wiki/HTTPS)</li>
 
-	HTTPS is not a protocol, but HTTP communication over a secure connection provided by the SSL / TLS protocol is called HTTPS
+HTTPS is not a protocol, but HTTP communication over a secure connection provided by the SSL / TLS protocol is called HTTPS
 
--[SSL / TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+<li>[SSL / TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)</li>
 
-	Protocol for performing security-required communications in computer networks such as the Internet
+Protocol for performing security-required communications in computer networks such as the Internet
 
+</ul>
 +++
 
 ### TECHNICAL TERMS
 
--[Diffie-Hellman Key Sharing](https://en.wikipedia.org/wiki/Diffie-Hellman Key Sharing)
+<ul>
+<li>[Diffie-Hellman Key Sharing](https://en.wikipedia.org/wiki/Diffie-Hellman Key Sharing)</li>
 
-	Cryptographic protocol that enables sharing of encryption keys using channels that may be wiretapped without prior secret sharing
+Cryptographic protocol that enables sharing of encryption keys using channels that may be wiretapped without prior secret sharing
 
+</ul>
 +++
 
 ### TECHNICAL TERMS
 
--[Common Key Cryptography](https://en.wikipedia.org/wiki/Common Key Cryptography)
+<ul>
+<li>[Common Key Cryptography](https://en.wikipedia.org/wiki/Common Key Cryptography)</li>
 
-	Encryption method that uses the same (common) key for encryption and decryption
+Encryption method that uses the same (common) key for encryption and decryption
 
--[Public Key Cryptography](https://en.wikipedia.org/wiki/Public Key Cryptography)
+<li>[Public Key Cryptography](https://en.wikipedia.org/wiki/Public Key Cryptography)</li>
 
-	Cryptography that uses separate keys (procedures) for encryption and decryption, and allows the encryption key to be disclosed
+Cryptography that uses separate keys (procedures) for encryption and decryption, and allows the encryption key to be disclosed
 
+</ul>
 +++
 
 ### TECHNICAL TERMS
 
--[Falsification](https://en.wikipedia.org/wiki/Falsification)
+<ul>
 
-	Changing all or part of a document, record, etc. to a format or content that should not be done at the time when it should not be done. <br />
-	Whether or not malicious
+<li>[Falsification](https://en.wikipedia.org/wiki/Falsification)</li>
 
--[Spoofing](http://capm-network.com/?tag=What is authentication? #About falsification and impersonation)
+Changing all or part of a document, record, etc. to a format or content that should not be done at the time when it should not be done. <br />
+Whether or not malicious.
 
-	In the first place, it is necessary to check whether the data was sent from a legitimate communication partner.
+<li>[Spoofing](http://capm-network.com/?tag=What is authentication? #About falsification and impersonation)</li>
 
+In the first place, it is necessary to check whether the data was sent from a legitimate communication partner.
+
++++
+
+</ul>
+### TECHNICAL TERMS
+
+<ul>
+<li>[Authentication](https://en.wikipedia.org/wiki/Authentication#Authentication)</li>
+
+Confirming the legitimacy of the object based on the identification information
+
+<li>[Data integrity](https://en.wikipedia.org/wiki/data integrity # information security)</li>
+
+The data is valid without being tampered with
+
+</ul>
 +++
 
 ### TECHNICAL TERMS
 
--[Authentication](https://en.wikipedia.org/wiki/Authentication#Authentication)
+<ul>
+<li>[Message Authentication Code (MAC)]()<li>
 
-	Confirming the legitimacy of the object based on the identification information
+Fixed-length code (bit string) for detecting whether data has been tampered with
 
--[Data integrity](https://en.wikipedia.org/wiki/data integrity # information security)
-
-	The data is valid without being tampered with
-
+</ul>
 +++
 
 ### TECHNICAL TERMS
 
-** Authentication **
+<ul>
 
--[Message Authentication Code (MAC)] ()
+<li>[HMAC](https://en.wikipedia.org/wiki/HMAC)</li>
 
-	Fixed-length code (bit string) for detecting whether data has been tampered with
-
-+++
-
-### TECHNICAL TERMS
-
-** Authentication method **
-
--[HMAC](https://en.wikipedia.org/wiki/HMAC)
-
-	Used with a common key.
-	MAC which calculates by combining hash function and common key.
+Used with a common key.
+MAC which calculates by combining hash function and common key.
 	
--[Digital Signature](https://en.wikipedia.org/wiki/Digital Signature)
-	Used with public key.
-	A type of public-key cryptography used to mimic the security characteristics of handwritten signatures on paper.
-	Different from [electronic signature](https://en.wikipedia.org/wiki/electronic signature).
+<li>[Digital Signature](https://en.wikipedia.org/wiki/Digital Signature)</li>
+Used with public key.
+A type of public-key cryptography used to mimic the security characteristics of handwritten signatures on paper.
+Different from [electronic signature](https://en.wikipedia.org/wiki/electronic signature).
 
+</ul>
 +++
 
 ### TECHNICAL TERMS
 
--[VPN](https://en.wikipedia.org/wiki/Virtual_Private_Network)
+<ul>
+	
+<li>[VPN](https://en.wikipedia.org/wiki/Virtual_Private_Network)
 
-	A technology that extends [private network] (https://en.wikipedia.org/wiki/private network) across the [Internet] (https://en.wikipedia.org/wiki/Internet), and the network That
+A technology that extends [private network] (https://en.wikipedia.org/wiki/private network) across the [Internet] (https://en.wikipedia.org/wiki/Internet), and the network That
 
+</ul>
 ---
 
 ### 用語集
