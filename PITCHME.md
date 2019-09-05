@@ -373,8 +373,6 @@ Different from [electronic signature](https://en.wikipedia.org/wiki/electronic s
 - [ディフィー・ヘルマン鍵共有](https://ja.wikipedia.org/wiki/ディフィー・ヘルマン鍵共有)
 
 	事前の秘密の共有無しに、盗聴の可能性のある通信路を使って、暗号鍵の共有を可能にする暗号プロトコル
-	
-- [QKD (Quantum Key Distribution)]()
 
 +++
 
@@ -419,7 +417,7 @@ Different from [electronic signature](https://en.wikipedia.org/wiki/electronic s
 
 **認証(Authentication)**
 
-- [メッセージ認証符号 (MAC)]()
+- [メッセージ認証符号 (MAC)](https://ja.wikipedia.org/wiki/メッセージ認証符号)
 
 	データ改ざんの有無を検知するための固定長コード（ビット列）
 
@@ -478,20 +476,27 @@ Different from [electronic signature](https://en.wikipedia.org/wiki/electronic s
 ---
 
 ## What is IPsec？(2)<br />(10min)
-<!--
-IPsecは暗号化通信を実現するための複数のプロトコルの総称
-ここではモードと中核をなすいくつかのプロトコルについて紹介する
--->
 
 - Encpsulation
 - IKE vs IPsec AH/ESP
 - Basic idea of a tunnel
 - SAs & rekeying
 
+Note: 
+IPsec is a generic name for several protocols for realizing encrypted communication.
+
+From here, I will introduce Ipsec mode and some protocols that are the core of IPsec.
+
 +++
 
 ## Encapsulation
 
+Note: 
+Before that, I want to introduce the key idea of network.
+
+The term encapsulation is often used interchangeably with information hiding. 
+
+and also in object-oriented programming
 +++
 
 ### Encapsulation
