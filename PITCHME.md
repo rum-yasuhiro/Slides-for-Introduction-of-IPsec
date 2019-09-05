@@ -32,11 +32,6 @@ IPSecでは、暗号化をIP（Internet Protocol）プロトコルのレベル�
 
 +++
 
-### Summer vacation
-
-![](./img/uminoiewifi.jpeg)
-
----
 ## What is IPsec？(1)<br />(15min)
 <!-- IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。-->
 
@@ -214,103 +209,120 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 ### TECHNICAL TERMS
 
-- [情報セキュリティ](https://ja.wikipedia.org/wiki/情報セキュリティ)
+-Internet VPN
 
-	情報の機密性、完全性、可用性を維持すること(情報のCIA)
+VPN using internet connection
+-IPsec-VPN
+Internet VPN using IPsec as the security protocol
+The
+-SSL-VPN
+Internet VPN using SSL as a security protocol
 
-- [HTTPS](https://ja.wikipedia.org/wiki/HTTPS)
+-IP VPN
 
-	HTTPS自体はプロトコルではなく、SSL/TLSプロトコルによって提供されるセキュアな接続の上でHTTP通信を行うことをHTTPSと呼ぶ
-	
-- [SSL/TLS](https://ja.wikipedia.org/wiki/Transport_Layer_Security)
-
-	インターネットなどのコンピュータネットワークにおいてセキュリティを要求される通信を行うためのプロトコル
-
-+++
-
-### TECHNICAL TERMS
-
-- [ディフィー・ヘルマン鍵共有](https://ja.wikipedia.org/wiki/ディフィー・ヘルマン鍵共有)
-
-	事前の秘密の共有無しに、盗聴の可能性のある通信路を使って、暗号鍵の共有を可能にする暗号プロトコル
-	
-- [QKD (Quantum Key Distribution)]()
+-MPLS-VPN
+A VPN that uses MPLS to search for route information within the private IP network of a carrier.
 
 +++
 
 ### TECHNICAL TERMS
 
-- [共通鍵暗号](https://ja.wikipedia.org/wiki/共通鍵暗号)
+-[Information Security] (https://en.wikipedia.org/wiki/Information Security)
 
-	暗号化と復号に同一の(共通の)鍵を用いる暗号方式
+Maintain the confidentiality, integrity, and availability of information (Information CIA)
 
-- [公開鍵暗号](https://ja.wikipedia.org/wiki/公開鍵暗号)
 
-	暗号化と復号に別個の鍵(手順)を用い、暗号化の鍵を公開できるようにした暗号方式
+-[HTTPS] (https://en.wikipedia.org/wiki/HTTPS)
 
-+++
+HTTPS is not a protocol, but HTTP communication over a secure connection provided by the SSL / TLS protocol is called HTTPS
 
-### TECHNICAL TERMS
+-[SSL / TLS] (https://en.wikipedia.org/wiki/Transport_Layer_Security)
 
-- [改竄（かいざん）](https://ja.wikipedia.org/wiki/改竄)
-
-	文書、記録等の全部又は一部が、本来なされるべきでない時期に、本来なされるべきでない形式や内容などに変更されること、すること<br />
-	悪意の有無は問わない
-	
-- [なりすまし](http://capm-network.com/?tag=認証とは#改ざんとなりすましについて)
-
-	そもそもデータが正規の通信相手から送付されたものかどうかも確認する必要がある
+Protocol for performing security-required communications in computer networks such as the Internet
 
 +++
 
 ### TECHNICAL TERMS
 
-- [認証(anthentication)](https://ja.wikipedia.org/wiki/認証#Authentication)
+-[Diffie-Hellman Key Sharing] (https://en.wikipedia.org/wiki/Diffie-Hellman Key Sharing)
 
-	識別情報に基づいて対象の正当性を確認すること
-
-- [データの完全性(data itegrity)](https://ja.wikipedia.org/wiki/データ完全性#情報セキュリティ)
-
-	データが改ざんされることなく妥当であること
+Cryptographic protocol that enables sharing of encryption keys using channels that may be wiretapped without prior secret sharing
 
 +++
 
 ### TECHNICAL TERMS
 
-**認証(Authentication)**
+-[Common Key Cryptography] (https://en.wikipedia.org/wiki/Common Key Cryptography)
 
-- [メッセージ認証符号 (MAC)]()
+Encryption method that uses the same (common) key for encryption and decryption
 
-	データ改ざんの有無を検知するための固定長コード（ビット列）
+-[Public Key Cryptography] (https://en.wikipedia.org/wiki/Public Key Cryptography)
 
-+++
-
-### TECHNICAL TERMS
-
-**認証方式**
-
-- [HMAC](https://ja.wikipedia.org/wiki/HMAC)
-	
-	共通鍵と共に用いられる
-	ハッシュ関数と共通鍵を組合せて計算するMACのこと
-
-- [デジタル署名](https://ja.wikipedia.org/wiki/デジタル署名)
-
-	公開鍵と共に用いられる
-	書面上の手書き署名のセキュリティ特性を模倣するために用いられる公開鍵暗号技術の一種
-	[電子署名](https://ja.wikipedia.org/wiki/電子署名)とは異なる
+Cryptography that uses separate keys (procedures) for encryption and decryption, and allows the encryption key to be disclosed
 
 +++
 
 ### TECHNICAL TERMS
 
-- [VPN](https://ja.wikipedia.org/wiki/Virtual_Private_Network)
+-[Falsification] (https://en.wikipedia.org/wiki/Falsification)
 
-	[インターネット](https://ja.wikipedia.org/wiki/インターネット)に跨って、[プライベートネットワーク](https://ja.wikipedia.org/wiki/プライベートネットワーク)を拡張する技術、およびそのネットワークのこと
+Changing all or part of a document, record, etc. to a format or content that should not be done at the time when it should not be done. <br />
+Whether or not malicious
+
+-[Spoofing] (http://capm-network.com/?tag=What is authentication? #About falsification and impersonation)
+
+In the first place, it is necessary to check whether the data was sent from a legitimate communication partner.
 
 +++
 
 ### TECHNICAL TERMS
+
+-[Authentication] (https://en.wikipedia.org/wiki/Authentication#Authentication)
+
+Confirming the legitimacy of the object based on the identification information
+
+-[Data integrity] (https://en.wikipedia.org/wiki/data integrity # information security)
+
+The data is valid without being tampered with
+
++++
+
+### TECHNICAL TERMS
+
+** Authentication **
+
+-[Message Authentication Code (MAC)] ()
+
+Fixed-length code (bit string) for detecting whether data has been tampered with
+
++++
+
+### TECHNICAL TERMS
+
+** Authentication method **
+
+-[HMAC] (https://en.wikipedia.org/wiki/HMAC)
+The
+Used with a common key
+MAC which calculates by combining hash function and common key
+
+-[Digital Signature] (https://en.wikipedia.org/wiki/Digital Signature)
+
+Used with public key
+A type of public-key cryptography used to mimic the security characteristics of handwritten signatures on paper
+Different from [electronic signature] (https://en.wikipedia.org/wiki/electronic signature)
+
++++
+
+### TECHNICAL TERMS
+
+-[VPN] (https://en.wikipedia.org/wiki/Virtual_Private_Network)
+
+A technology that extends [private network] (https://en.wikipedia.org/wiki/private network) across the [Internet] (https://en.wikipedia.org/wiki/Internet), and the network That
+
+---
+
+### 用語集
 
 - インターネットVPN
 
@@ -328,11 +340,101 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 +++
 
-### TECHNICAL TERMS
+### 用語集
 
-- [用語](url)
+- [情報セキュリティ](https://ja.wikipedia.org/wiki/情報セキュリティ)
 
-	説明
+	情報の機密性、完全性、可用性を維持すること(情報のCIA)
+
+- [HTTPS](https://ja.wikipedia.org/wiki/HTTPS)
+
+	HTTPS自体はプロトコルではなく、SSL/TLSプロトコルによって提供されるセキュアな接続の上でHTTP通信を行うことをHTTPSと呼ぶ
+	
+- [SSL/TLS](https://ja.wikipedia.org/wiki/Transport_Layer_Security)
+
+	インターネットなどのコンピュータネットワークにおいてセキュリティを要求される通信を行うためのプロトコル
+
++++
+
+### 用語集
+
+- [ディフィー・ヘルマン鍵共有](https://ja.wikipedia.org/wiki/ディフィー・ヘルマン鍵共有)
+
+	事前の秘密の共有無しに、盗聴の可能性のある通信路を使って、暗号鍵の共有を可能にする暗号プロトコル
+	
+- [QKD (Quantum Key Distribution)]()
+
++++
+
+### 用語集
+
+- [共通鍵暗号](https://ja.wikipedia.org/wiki/共通鍵暗号)
+
+	暗号化と復号に同一の(共通の)鍵を用いる暗号方式
+
+- [公開鍵暗号](https://ja.wikipedia.org/wiki/公開鍵暗号)
+
+	暗号化と復号に別個の鍵(手順)を用い、暗号化の鍵を公開できるようにした暗号方式
+
++++
+
+### 用語集
+
+- [改竄（かいざん）](https://ja.wikipedia.org/wiki/改竄)
+
+	文書、記録等の全部又は一部が、本来なされるべきでない時期に、本来なされるべきでない形式や内容などに変更されること、すること<br />
+	悪意の有無は問わない
+	
+- [なりすまし](http://capm-network.com/?tag=認証とは#改ざんとなりすましについて)
+
+	そもそもデータが正規の通信相手から送付されたものかどうかも確認する必要がある
+
++++
+
+### 用語集
+
+- [認証(anthentication)](https://ja.wikipedia.org/wiki/認証#Authentication)
+
+	識別情報に基づいて対象の正当性を確認すること
+
+- [データの完全性(data itegrity)](https://ja.wikipedia.org/wiki/データ完全性#情報セキュリティ)
+
+	データが改ざんされることなく妥当であること
+
++++
+
+### 用語集
+
+**認証(Authentication)**
+
+- [メッセージ認証符号 (MAC)]()
+
+	データ改ざんの有無を検知するための固定長コード（ビット列）
+
++++
+
+### 用語集
+
+**認証方式**
+
+- [HMAC](https://ja.wikipedia.org/wiki/HMAC)
+	
+	共通鍵と共に用いられる
+	ハッシュ関数と共通鍵を組合せて計算するMACのこと
+
+- [デジタル署名](https://ja.wikipedia.org/wiki/デジタル署名)
+
+	公開鍵と共に用いられる
+	書面上の手書き署名のセキュリティ特性を模倣するために用いられる公開鍵暗号技術の一種
+	[電子署名](https://ja.wikipedia.org/wiki/電子署名)とは異なる
+
++++
+
+### 用語集
+
+- [VPN](https://ja.wikipedia.org/wiki/Virtual_Private_Network)
+
+	[インターネット](https://ja.wikipedia.org/wiki/インターネット)に跨って、[プライベートネットワーク](https://ja.wikipedia.org/wiki/プライベートネットワーク)を拡張する技術、およびそのネットワークのこと
 
 ---
 
@@ -376,7 +478,7 @@ IPsecは暗号化通信を実現するための複数のプロトコルの総称
 
 +++
 
-### Encapsulation
+## Encapsulation
 
 +++
 
@@ -394,7 +496,8 @@ https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 
 +++
 
-### Transport Mode <br />Tunnel Mode
+## Transport Mode
+## Tunnel Mode
 
 +++
 
