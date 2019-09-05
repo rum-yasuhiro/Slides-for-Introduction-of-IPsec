@@ -504,6 +504,10 @@ and also in object-oriented programming
 ![](./img/ipsec2encapsulation.png)
 https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html
 
+Note: 
+
+Abstracting the upper layer data by encapsulation, communication can be realized without the data of the upper layer being known to the lower layer.
+
 +++
 
 ### Encapsulation
