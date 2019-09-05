@@ -214,23 +214,21 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 <li>Internet VPN</li>
 
 VPN using internet connection
--IPsec-VPN
-Internet VPN using IPsec as the security protocol
-
 <ul>
--SSL-VPN
 
+<li>IPsec-VPN</li>
+Internet VPN using IPsec as the security protocol
+	
+<li>SSL-VPN</li>
 Internet VPN using SSL as a security protocol
-
 </ul>
 
 <li>IP VPN</li>
-
 <ul>
 <li>MPLS-VPN</li>
-
 A VPN that uses MPLS to search for route information within the private IP network of a carrier.
 </ul>
+
 </ul>
 
 +++
