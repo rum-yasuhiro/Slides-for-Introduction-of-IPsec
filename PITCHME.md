@@ -254,7 +254,7 @@ Protocol for performing security-required communications in computer networks su
 ### TECHNICAL TERMS
 
 <ul>
-<li>[Diffie-Hellman Key Sharing](https://en.wikipedia.org/wiki/Diffie-Hellman Key Sharing)</li>
+<li>[Diffie-Hellman Key Exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)</li>
 
 Cryptographic protocol that enables sharing of encryption keys using channels that may be wiretapped without prior secret sharing
 
@@ -264,7 +264,7 @@ Cryptographic protocol that enables sharing of encryption keys using channels th
 ### TECHNICAL TERMS
 
 <ul>
-<li>[Common Key Cryptography](https://en.wikipedia.org/wiki/Common Key Cryptography)</li>
+<li>[Common Key Cryptography](https://en.wikipedia.org/wiki/Symmetric-key_algorithm)</li>
 
 Encryption method that uses the same (common) key for encryption and decryption
 
@@ -279,12 +279,12 @@ Cryptography that uses separate keys (procedures) for encryption and decryption,
 
 <ul>
 
-<li>[Falsification](https://en.wikipedia.org/wiki/Falsification)</li>
+<li>Falsification</li>
 
 Changing all or part of a document, record, etc. to a format or content that should not be done at the time when it should not be done. <br />
 Whether or not malicious.
 
-<li>[Spoofing](http://capm-network.com/?tag=What is authentication? #About falsification and impersonation)</li>
+<li>[Spoofing](https://en.wikipedia.org/wiki/IP_address_spoofing)</li>
 
 In the first place, it is necessary to check whether the data was sent from a legitimate communication partner.
 
@@ -308,7 +308,7 @@ The data is valid without being tampered with
 ### TECHNICAL TERMS
 
 <ul>
-<li>[Message Authentication Code (MAC)]()<li>
+<li>[Message Authentication Code (MAC)](https://en.wikipedia.org/wiki/Message_authentication_code)</li>
 
 Fixed-length code (bit string) for detecting whether data has been tampered with
 
@@ -328,17 +328,6 @@ MAC which calculates by combining hash function and common key.
 Used with public key.
 A type of public-key cryptography used to mimic the security characteristics of handwritten signatures on paper.
 Different from [electronic signature](https://en.wikipedia.org/wiki/electronic signature).
-
-</ul>
-+++
-
-### TECHNICAL TERMS
-
-<ul>
-	
-<li>[VPN](https://en.wikipedia.org/wiki/Virtual_Private_Network)
-
-A technology that extends [private network](https://en.wikipedia.org/wiki/privatenetwork) across the [Internet](https://en.wikipedia.org/wiki/Internet), and the network That
 
 </ul>
 ---
