@@ -50,18 +50,20 @@ Note:
 +++
 
 ### VPN(Virtual Private Network)
-<!--
-VPNとは仮想的なプライベートネットワーク接続のことで、セキュアな通信が可能となります。
-VPNには閉じられた専用回線を用いる、IP VPNとInternetなどのpublic network上で行うInternet VPNが有ります。
-Internet VPNはIP VPNと比較して、費用を削減できます。
-そして、このInternet VPNを実現するセキュリティプロトコルが今回紹介する、IPsecです。
--->
 
 - Internet VPN
 - IP VPN
 
 ![](./img/ipsec1vpn.jpg)
 https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
+
+Note:
+
+VPNとは仮想的なプライベートネットワーク接続のことで、セキュアな通信が可能となります。
+VPNには閉じられた専用回線を用いる、IP VPNとInternetなどのpublic network上で行うInternet VPNが有ります。
+Internet VPNはIP VPNと比較して、費用を削減できます。
+そして、このInternet VPNを実現するセキュリティプロトコルが今回紹介する、IPsecです。
+
 ---
 
 
