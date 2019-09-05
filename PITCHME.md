@@ -213,77 +213,65 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 VPN using internet connection
 -IPsec-VPN
-Internet VPN using IPsec as the security protocol
-The
--SSL-VPN
-Internet VPN using SSL as a security protocol
-
--IP VPN
+	Internet VPN using IPsec as the security protocol
+	-SSL-VPN
+		Internet VPN using SSL as a security protocol
+	-IP VPN
 
 -MPLS-VPN
-A VPN that uses MPLS to search for route information within the private IP network of a carrier.
+	A VPN that uses MPLS to search for route information within the private IP network of a carrier.
 
 +++
 
 ### TECHNICAL TERMS
 
--[Information Security] (https://en.wikipedia.org/wiki/Information Security)
+-[Information Security](https://en.wikipedia.org/wiki/Information Security)
+	Maintain the confidentiality, integrity, and availability of information (Information CIA)
 
-Maintain the confidentiality, integrity, and availability of information (Information CIA)
 
-
--[HTTPS] (https://en.wikipedia.org/wiki/HTTPS)
-
-HTTPS is not a protocol, but HTTP communication over a secure connection provided by the SSL / TLS protocol is called HTTPS
+-[HTTPS](https://en.wikipedia.org/wiki/HTTPS)
+	HTTPS is not a protocol, but HTTP communication over a secure connection provided by the SSL / TLS protocol is called HTTPS
 
 -[SSL / TLS] (https://en.wikipedia.org/wiki/Transport_Layer_Security)
-
-Protocol for performing security-required communications in computer networks such as the Internet
-
-+++
-
-### TECHNICAL TERMS
-
--[Diffie-Hellman Key Sharing] (https://en.wikipedia.org/wiki/Diffie-Hellman Key Sharing)
-
-Cryptographic protocol that enables sharing of encryption keys using channels that may be wiretapped without prior secret sharing
+	Protocol for performing security-required communications in computer networks such as the Internet
 
 +++
 
 ### TECHNICAL TERMS
 
--[Common Key Cryptography] (https://en.wikipedia.org/wiki/Common Key Cryptography)
-
-Encryption method that uses the same (common) key for encryption and decryption
-
--[Public Key Cryptography] (https://en.wikipedia.org/wiki/Public Key Cryptography)
-
-Cryptography that uses separate keys (procedures) for encryption and decryption, and allows the encryption key to be disclosed
+-[Diffie-Hellman Key Sharing](https://en.wikipedia.org/wiki/Diffie-Hellman Key Sharing)
+	Cryptographic protocol that enables sharing of encryption keys using channels that may be wiretapped without prior secret sharing
 
 +++
 
 ### TECHNICAL TERMS
 
--[Falsification] (https://en.wikipedia.org/wiki/Falsification)
+-[Common Key Cryptography](https://en.wikipedia.org/wiki/Common Key Cryptography)
+	Encryption method that uses the same (common) key for encryption and decryption
 
-Changing all or part of a document, record, etc. to a format or content that should not be done at the time when it should not be done. <br />
-Whether or not malicious
+-[Public Key Cryptography](https://en.wikipedia.org/wiki/Public Key Cryptography)
+	Cryptography that uses separate keys (procedures) for encryption and decryption, and allows the encryption key to be disclosed
+
++++
+
+### TECHNICAL TERMS
+
+-[Falsification](https://en.wikipedia.org/wiki/Falsification)
+	Changing all or part of a document, record, etc. to a format or content that should not be done at the time when it should not be done. <br />
+	Whether or not malicious
 
 -[Spoofing] (http://capm-network.com/?tag=What is authentication? #About falsification and impersonation)
-
-In the first place, it is necessary to check whether the data was sent from a legitimate communication partner.
+	In the first place, it is necessary to check whether the data was sent from a legitimate communication partner.
 
 +++
 
 ### TECHNICAL TERMS
 
--[Authentication] (https://en.wikipedia.org/wiki/Authentication#Authentication)
+-[Authentication](https://en.wikipedia.org/wiki/Authentication#Authentication)
+	Confirming the legitimacy of the object based on the identification information
 
-Confirming the legitimacy of the object based on the identification information
-
--[Data integrity] (https://en.wikipedia.org/wiki/data integrity # information security)
-
-The data is valid without being tampered with
+-[Data integrity](https://en.wikipedia.org/wiki/data integrity # information security)
+	The data is valid without being tampered with
 
 +++
 
@@ -292,8 +280,7 @@ The data is valid without being tampered with
 ** Authentication **
 
 -[Message Authentication Code (MAC)] ()
-
-Fixed-length code (bit string) for detecting whether data has been tampered with
+	Fixed-length code (bit string) for detecting whether data has been tampered with
 
 +++
 
@@ -301,24 +288,21 @@ Fixed-length code (bit string) for detecting whether data has been tampered with
 
 ** Authentication method **
 
--[HMAC] (https://en.wikipedia.org/wiki/HMAC)
-The
-Used with a common key
-MAC which calculates by combining hash function and common key
+-[HMAC](https://en.wikipedia.org/wiki/HMAC)
+	Used with a common key
+	MAC which calculates by combining hash function and common key
 
--[Digital Signature] (https://en.wikipedia.org/wiki/Digital Signature)
-
-Used with public key
-A type of public-key cryptography used to mimic the security characteristics of handwritten signatures on paper
-Different from [electronic signature] (https://en.wikipedia.org/wiki/electronic signature)
+-[Digital Signature](https://en.wikipedia.org/wiki/Digital Signature)
+	Used with public key
+	A type of public-key cryptography used to mimic the security characteristics of handwritten signatures on paper
+	Different from [electronic signature] (https://en.wikipedia.org/wiki/electronic signature)
 
 +++
 
 ### TECHNICAL TERMS
 
--[VPN] (https://en.wikipedia.org/wiki/Virtual_Private_Network)
-
-A technology that extends [private network] (https://en.wikipedia.org/wiki/private network) across the [Internet] (https://en.wikipedia.org/wiki/Internet), and the network That
+-[VPN](https://en.wikipedia.org/wiki/Virtual_Private_Network)
+	A technology that extends [private network] (https://en.wikipedia.org/wiki/private network) across the [Internet] (https://en.wikipedia.org/wiki/Internet), and the network That
 
 ---
 
