@@ -26,14 +26,49 @@ IPSecでは、暗号化をIP（Internet Protocol）プロトコルのレベル�
 -->
 
 ---
+### Summer vacation
 
+![](./img/okinawa.JPG)
+
++++
+
+### Summer vacation
+
+![](./img/uminoiewifi.jpeg)
+
+---
 ## What is IPsec？(1)<br />(15min)
 <!-- IPsecを説明する前に、暗号技術の基本とVPNについて確認する必要があることを伝える。-->
 
-- Encrypted communication(12min)
 - VPN(3min)
+- Encrypted communication(12min)
 
 ---
+
+
+## VPN (3min)
+<!--
+<メモ>
+-->
+![](https://www.ipvanish.com/images/a/open-graph-img/why-vpn-min.jpg)
+
++++
+
+### VPN(Virtual Private Network)
+<!--
+VPNとは仮想的なプライベートネットワーク接続のことで、セキュアな通信が可能となります。
+VPNには閉じられた専用回線を用いる、IP VPNとInternetなどのpublic network上で行うInternet VPNが有ります。
+Internet VPNはIP VPNと比較して、費用を削減できます。
+そして、このInternet VPNを実現するセキュリティプロトコルが今回紹介する、IPsecです。
+-->
+
+- Internet VPN
+- IP VPN
+
+![](./img/ipsec1vpn.jpg)
+https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
+---
+
 
 ## Cryptosystem (12min)
 <!--
@@ -175,29 +210,6 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 	Generate: Data + Secret-key<br />
 	Check : Data + Public-key
 
----
-
-## VPN (3min)
-<!--
-<メモ>
--->
-![](https://www.ipvanish.com/images/a/open-graph-img/why-vpn-min.jpg)
-
-+++
-
-### VPN(Virtual Private Network)
-<!--
-VPNとは仮想的なプライベートネットワーク接続のことで、セキュアな通信が可能となります。
-VPNには閉じられた専用回線を用いる、IP VPNとInternetなどのpublic network上で行うInternet VPNが有ります。
-Internet VPNはIP VPNと比較して、費用を削減できます。
-そして、このInternet VPNを実現するセキュリティプロトコルが今回紹介する、IPsecです。
--->
-
-- Internet VPN
-- IP VPN
-
-![](./img/ipsec1vpn.jpg)
-https://www.webhostingsecretrevealed.net/the-a-to-z-vpn-guide/
 ---
 
 ### TECHNICAL TERMS
