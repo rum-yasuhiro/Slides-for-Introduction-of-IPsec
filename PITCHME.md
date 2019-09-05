@@ -209,17 +209,29 @@ https://freecontent.manning.com/cryptographic-hashes-and-bitcoin/
 
 ### TECHNICAL TERMS
 
--Internet VPN
+<ul>	
+	
+<li>Internet VPN</li>
 
 VPN using internet connection
 -IPsec-VPN
-	Internet VPN using IPsec as the security protocol
-	-SSL-VPN
-		Internet VPN using SSL as a security protocol
-	-IP VPN
+Internet VPN using IPsec as the security protocol
 
--MPLS-VPN
-	A VPN that uses MPLS to search for route information within the private IP network of a carrier.
+<ul>
+-SSL-VPN
+
+Internet VPN using SSL as a security protocol
+
+</ul>
+
+<li>IP VPN</li>
+
+<ul>
+<li>MPLS-VPN</li>
+
+A VPN that uses MPLS to search for route information within the private IP network of a carrier.
+</ul>
+</ul>
 
 +++
 
