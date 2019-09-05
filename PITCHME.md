@@ -236,15 +236,14 @@ A VPN that uses MPLS to search for route information within the private IP netwo
 ### TECHNICAL TERMS
 
 <ul>
-<li>[Information Security](https://en.wikipedia.org/wiki/Information Security)</li>		
+<li>[Information Security](https://en.wikipedia.org/wiki/Information Security)</li>
 
 Maintain the confidentiality, integrity, and availability of information (Information CIA)
-
-
+	
 <li>[HTTPS](https://en.wikipedia.org/wiki/HTTPS)</li>
 
 HTTPS is not a protocol, but HTTP communication over a secure connection provided by the SSL / TLS protocol is called HTTPS
-
+	
 <li>[SSL / TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)</li>
 
 Protocol for performing security-required communications in computer networks such as the Internet
@@ -339,7 +338,7 @@ Different from [electronic signature](https://en.wikipedia.org/wiki/electronic s
 	
 <li>[VPN](https://en.wikipedia.org/wiki/Virtual_Private_Network)
 
-A technology that extends [private network] (https://en.wikipedia.org/wiki/private network) across the [Internet] (https://en.wikipedia.org/wiki/Internet), and the network That
+A technology that extends [private network](https://en.wikipedia.org/wiki/privatenetwork) across the [Internet](https://en.wikipedia.org/wiki/Internet), and the network That
 
 </ul>
 ---
