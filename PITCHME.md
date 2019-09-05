@@ -226,8 +226,8 @@ VPN using internet connection
 ### TECHNICAL TERMS
 
 -[Information Security](https://en.wikipedia.org/wiki/Information Security)
-
-	Maintain the confidentiality, integrity, and availability of information (Information CIA)
+		
+		Maintain the confidentiality, integrity, and availability of information (Information CIA)
 
 
 -[HTTPS](https://en.wikipedia.org/wiki/HTTPS)
@@ -301,14 +301,13 @@ VPN using internet connection
 
 -[HMAC](https://en.wikipedia.org/wiki/HMAC)
 
-	Used with a common key
-	MAC which calculates by combining hash function and common key
-
+	Used with a common key.
+	MAC which calculates by combining hash function and common key.
+	
 -[Digital Signature](https://en.wikipedia.org/wiki/Digital Signature)
-
-	Used with public key
-	A type of public-key cryptography used to mimic the security characteristics of handwritten signatures on paper
-	Different from [electronic signature] (https://en.wikipedia.org/wiki/electronic signature)
+	Used with public key.
+	A type of public-key cryptography used to mimic the security characteristics of handwritten signatures on paper.
+	Different from [electronic signature](https://en.wikipedia.org/wiki/electronic signature).
 
 +++
 
