@@ -528,30 +528,38 @@ Abstracting the upper layer data by encapsulation, communication can be realized
 https://www.cse.wustl.edu/~jain/cse571-11/ftp/l_19ips.pdf
 +++
 
+### SAs(Security Associations)
+
+- To send and receive packets, <br />you need a SA for sending and a SA for receiving
+
+- SA is unique for each IPsec encapsulation protocol
+
+
++++
+
 ### SAs(Security Associations) 
 
 IPsec performs encryption and authentication for each packet
 
 SPI(Security poiner idex)
 
-<!-- 
+Note: 
+
 SPIは暗号化通信で各パケット中に挿入され、パケット内の通信内容がどのような暗号化アルゴリズムで暗号化されたのか、どの暗号鍵を使うのかといったことを示すガイドとなる。
+
+
 SPIを各パケットに挿入するのは、ホストが同時に複数の相手と暗号化通信を行うことがあるからだ。
+
 このとき、それぞれの相手と個別にネゴシエーションを行うため、それぞれの通信で使用する暗号化アルゴリズムや暗号鍵などのSAが異なってしまう。
+
 そのため、パケットを受信するたびに、暗号化アルゴリズムと暗号鍵を照合する必要がある。
+
 そこで、パケット内のSPIを検索キーのように使って、必要な情報を引き出すようにしている。
+
 SPIの値は、この値から暗号化アルゴリズムや暗号鍵が推測できないように、暗号化通信の開始時に任意のものが割り当てられ、値の意味がネゴシエーションを行った当事者者同士以外には分からないように工夫されている。
--->
 
 +++
 
-### SAs(Security Associations)
-
-- To send and receive packets, <br />you need a SA for sending and a SA for receiving
-- SA is unique for each IPsec encapsulation protocol
-
-
-+++
 
 ### IKE(Internet Key Exchange)
 
@@ -602,7 +610,18 @@ http://jazier.blogspot.com/2015/08/ipsec-vpn-theory.html
 
 ### SAs and Rekeying
 
+Note: 
 
+Each SA, whether IKE or Child, can (and should) have a lifetime. 
+
+That lifetime can be specified in either seconds or in bytes that have been
+encrypted as they pass through the tunnel. 
+
+Once the lifetime has expired, the two gateways must create a new Child SA with new keys.
+
+This ultimately is the heart of what we're looking for here: what is
+
+that recommended lifetime today, and what should it be in the light of quantum computing?
 
 
 ---
