@@ -534,6 +534,11 @@ https://www.cse.wustl.edu/~jain/cse571-11/ftp/l_19ips.pdf
 
 - SA is unique for each IPsec encapsulation protocol
 
+Note: 
+
+Valid values are between 60 sec and 86400 sec (1 day). The default value is 3600 seconds.
+
+
 
 +++
 
