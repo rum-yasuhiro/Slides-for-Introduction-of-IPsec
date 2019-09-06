@@ -606,6 +606,32 @@ http://jazier.blogspot.com/2015/08/ipsec-vpn-theory.html
 
 
 ---
+### TECHNICAL TERM
+
+-[Communication protocol](https://en.wikipedia.org/wiki/Communication_protocol)
+
+Rules for communication on [Network](https://en.wikipedia.org/wiki/Computer_Network)
+
+
+-[IP (Internet Protocol)](https://en.wikipedia.org/wiki/Internet_Protocol)
+
+Communication protocol for sending packets, the most basic communication unit, to the other party
+
+-[IP address](https://en.wikipedia.org/wiki/IP address)
+
+A number used to identify the device that sends and receives packets in IP
+
++++
+
+### TECHNICAL TERMS
+
+-[OSI reference model](https://en.wikipedia.org/wiki/OSI reference model)
+
+![](./img/ipsec2osimodel.jpg)
+
+https://thetechlogy.com/osi-and-tcp-ip-model/
+
+---
 
 ### TECHNICAL TERM
 
