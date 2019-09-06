@@ -756,9 +756,9 @@ Open your network preference.
 
 ### What is IPsec？(Conclusion)
 
-- アプリケーションに関係なく、全ての通信を自動的に暗号化するためのIP Security Protocol |
+- IP Security Protocol for automatically encrypting all communications regardless of application |
 
-- VPN構築の際に利用されるもの |
+- Used for VPN construction |
 
 ---
 
