@@ -763,3 +763,43 @@ Open your network preference.
 ---
 
 ### Reference 
+
+
+- [IPsecをはじめから](https://www.infraexpert.com/study/study10.html)
+	- [VPN（ Virtual Private Network ）とは](https://www.infraexpert.com/study/ipsec.html)
+	- [VPN - VPNの基礎知識](https://www.infraexpert.com/study/ipsec2.html)
+	- [VPN - 暗号システムの概要](https://www.infraexpert.com/study/ipsec3.html)
+	- [VPN - 共通鍵暗号と公開鍵暗号](https://www.infraexpert.com/study/ipsec4.html)
+
+- [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
+
++++
+
+### Reference
+
+- [情報セキュリティ Capn Network](http://capm-network.com/?tag=%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3)
+	
+	- [鍵配送問題 Capn Network](http://capm-network.com/?tag=%E9%8D%B5%E9%85%8D%E9%80%81%E5%95%8F%E9%A1%8C)
+	- [暗号通信 Capm Network](http://capm-network.com/?tag=%E6%9A%97%E5%8F%B7%E9%80%9A%E4%BF%A1)
+	
+	- [ハッシュ関数 Capn Network](http://capm-network.com/?tag=%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E9%96%A2%E6%95%B0)
+	- [メッセージ認証コード Capn NetWork](http://capm-network.com/?tag=%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%AA%8D%E8%A8%BC%E3%82%B3%E3%83%BC%E3%83%89)
+	- [デジタル署名とデジタル証明書 Capn Network](http://capm-network.com/?tag=%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%BD%B2%E5%90%8D%E3%81%A8%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E8%A8%BC%E6%98%8E%E6%9B%B8)
+
+- [What is Public Key Cryptography? - Twilio](https://www.twilio.com/blog/what-is-public-key-cryptography)
+
++++
+
+### Reference
+
+- [IPsec - SA ( Security Association )](https://www.infraexpert.com/study/ipsec7.html)
+- [IPsec - Transport mode / Tunnel mode](https://www.infraexpert.com/study/ipsec6.html)
+
+- [IT管理者のためのIPSec講座](https://www.atmarkit.co.jp/ait/articles/0011/27/news001_2.html)
+
+- [Introduction to IP Security (IPSec) - Cisco](https://www.cisco.com/c/en/us/td/docs/wireless/asr_5000/20/IPSec/b_20_IPSec/b_20_IPSec_chapter_01011.pdf)
+
+- [IPsec VPN Theory Cisco Routing & Switching and Security]( http://jazier.blogspot.com/2015/08/ipsec-vpn-theory.html)
+
+- [データはどうやって伝わるの？](https://www.atmarkit.co.jp/ait/articles/0802/26/news135.html)
+
